@@ -1,0 +1,101 @@
+ {  
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "https://github.com/SteveLLamb/smpte-rollout/0.0.1",
+    "$comment": "Copyright, Steve LLamb <steve.llamb@gmail.com>",
+    "title": "Schema for the SMPTE rollout",
+    "required": [
+        "regions",
+        "countries"
+    ],
+    "properties": {
+        "regions": {
+            "$id": "#/properties/regions",
+            "type": "array",
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/regions/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/regions/items/anyOf/0",
+                        "type": "object",
+                        "required": [
+                            "region",
+                            "m49",
+                            "isoAlpha2"
+                        ],
+                        "properties": {
+                            "region": {
+                                "$id": "#/properties/regions/items/anyOf/0/properties/region",
+                                "type": "string"
+                            },
+                            "m49": {
+                                "$id": "#/properties/regions/items/anyOf/0/properties/m49",
+                                "type": "string"
+                            },
+                            "isoAlpha2": {
+                                "$id": "#/properties/regions/items/anyOf/0/properties/isoAlpha2",
+                                "type": "string"                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "countries": {
+            "$id": "#/properties/countries",
+            "type": "array",
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/countries/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/countries/items/anyOf/0",
+                        "type": "object",
+                        "required": [
+                            "region",
+                            "country",
+                            "isoAlpha2"
+                        ],
+                        "properties": {
+                            "region": {
+                                "$id": "#/properties/countries/items/anyOf/0/properties/region",
+                                "type": "string"
+                            },
+                            "country": {
+                                "$id": "#/properties/countries/items/anyOf/0/properties/country",
+                                "type": "string"
+                            },
+                            "m49": {
+                                "$id": "#/properties/countries/items/anyOf/0/properties/m49",
+                                "type": "string"
+                            },
+                            "isoAlpha2": {
+                                "$id": "#/properties/countries/items/anyOf/0/properties/isoAlpha2",
+                                "type": "string"
+                            },
+                            "isoAlpha3": {
+                                "$id": "#/properties/countries/items/anyOf/0/properties/isoAlpha3",
+                                "type": "string"
+                            },
+                            "siteCount": {
+                                "$id": "#/properties/countries/items/anyOf/0/properties/siteCount",
+                                "type": "integer",
+                                "minimum": 0,
+                                "exclusiveMinimum": true,
+                            },
+                            "smpteSite": {
+                                "$id": "#/properties/countries/items/anyOf/0/properties/smpteSite",
+                                "type": "number",
+                                "minimum": 0,
+                                "exclusiveMinimum": true,
+                                "maximum": 100,
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": true
+}
