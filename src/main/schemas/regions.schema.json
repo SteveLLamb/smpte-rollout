@@ -1,0 +1,41 @@
+ {  
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "https://github.com/SteveLLamb/smpte-rollout/regions/0.0.1",
+    "$comment": "Copyright, Steve LLamb <steve.llamb@gmail.com>",
+    "title": "Schema for the SMPTE rollout",
+    "properties": {
+        "regions": {
+            "$id": "#/properties/regions",
+            "type": "array",
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/regions/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/regions/items/anyOf/0",
+                        "type": "object",
+                        "required": [
+                            "region",
+                            "m49",
+                            "isoAlpha2"
+                        ],
+                        "properties": {
+                            "region": {
+                                "$id": "#/properties/regions/items/anyOf/0/properties/region",
+                                "type": "string"
+                            },
+                            "m49": {
+                                "$id": "#/properties/regions/items/anyOf/0/properties/m49",
+                                "type": "string"
+                            },
+                            "isoAlpha2": {
+                                "$id": "#/properties/regions/items/anyOf/0/properties/isoAlpha2",
+                                "type": "string"                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+    "additionalProperties": true
+}
