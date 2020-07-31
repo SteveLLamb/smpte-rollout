@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+    <title>SMPTE Rollout (Regions)</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="features.js" defer></script>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light d-flex">
+      <a class="navbar-brand" href="#">SMPTE Rollout (Regions)</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto d-print-none">
+          <li class="nav-item">
+            <a id="json-feed" target="_blank" class="nav-link" href="https://github.com/SteveLLamb/doc-registry">Get the JSON</a>
+          </li>
+          <li class="nav-item">
+            <a id="pdf-download" target="_blank" class="nav-link" title="Download as PDF" href="regions.pdf">Download PDF</a>
+          </li>
+          <li class="nav-item">
+            <a id="pdf-download" target="_blank" class="nav-link" title="Download as CSV" href="regions.csv">Download CSV</a>
+          </li>
+        </ul>
+          <form id="search-form" class="form-inline d-print-none">
+            <div class="input-group mb-2">
+              <input id="search" class="form-control" type="search" placeholder="Search Regions">
+            </div>
+          </form>
+      </div>
+    </nav>
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+    <a class="anchor" id="top" href="#top"></a>
+    <!-- Main content starts - do not edit above this line -->
+    <table class="table table-small table-hover table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Region</th>
+          <th scope="col" class="text-center">m49</th>
+          <th scope="col" class="text-center">ISO Alpha 2</th>
+          <th scope="col" class="text-center">Total Countries</th>
+          <th scope="col" class="text-center">Total Site Count</th>
+          <th scope="col" class="text-center">SMPTE Percentage</th>
+        </tr>
+      </thead>
+      <tbody id="searchTable">
+        <tr id="region-AF">
+          <td class="region">
+            Africa
+          </td>
+          <td class="m49" align="center">
+            <code>002</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>AF</code>
+          </td>
+          <td class="countryCount" align="center">
+            60
+          </td>
+          <td class="siteCount" align="center">
+            459
+          </td>
+          <td class="smpteSite" align="center">
+              38.29%
+          </td>
+        </tr>
+        <tr id="region-AS">
+          <td class="region">
+            Asia Pacific
+          </td>
+          <td class="m49" align="center">
+            <code>142</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>AS</code>
+          </td>
+          <td class="countryCount" align="center">
+            34
+          </td>
+          <td class="siteCount" align="center">
+            16617
+          </td>
+          <td class="smpteSite" align="center">
+              30.28%
+          </td>
+        </tr>
+        <tr id="region-OC">
+          <td class="region">
+            Australia and New Zealand
+          </td>
+          <td class="m49" align="center">
+            <code>053</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>OC</code>
+          </td>
+          <td class="countryCount" align="center">
+            3
+          </td>
+          <td class="siteCount" align="center">
+            700
+          </td>
+          <td class="smpteSite" align="center">
+              37.85%
+          </td>
+        </tr>
+        <tr id="region-NA">
+          <td class="region">
+            Caribbean
+          </td>
+          <td class="m49" align="center">
+            <code>029</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>NA</code>
+          </td>
+          <td class="countryCount" align="center">
+            29
+          </td>
+          <td class="siteCount" align="center">
+            148
+          </td>
+          <td class="smpteSite" align="center">
+              77.87%
+          </td>
+        </tr>
+        <tr id="region-NA">
+          <td class="region">
+            Central America
+          </td>
+          <td class="m49" align="center">
+            <code>013</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>NA</code>
+          </td>
+          <td class="countryCount" align="center">
+            8
+          </td>
+          <td class="siteCount" align="center">
+            1150
+          </td>
+          <td class="smpteSite" align="center">
+              94.24%
+          </td>
+        </tr>
+        <tr id="region-EU">
+          <td class="region">
+            Europe
+          </td>
+          <td class="m49" align="center">
+            <code>150</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>EU</code>
+          </td>
+          <td class="countryCount" align="center">
+            53
+          </td>
+          <td class="siteCount" align="center">
+            14554
+          </td>
+          <td class="smpteSite" align="center">
+              52.62%
+          </td>
+        </tr>
+        <tr id="region-OC">
+          <td class="region">
+            Melanasia
+          </td>
+          <td class="m49" align="center">
+            <code>054</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>OC</code>
+          </td>
+          <td class="countryCount" align="center">
+            5
+          </td>
+          <td class="siteCount" align="center">
+            13
+          </td>
+          <td class="smpteSite" align="center">
+              70%
+          </td>
+        </tr>
+        <tr id="region-OC">
+          <td class="region">
+            Micronesia
+          </td>
+          <td class="m49" align="center">
+            <code>057</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>OC</code>
+          </td>
+          <td class="countryCount" align="center">
+            8
+          </td>
+          <td class="siteCount" align="center">
+            7
+          </td>
+          <td class="smpteSite" align="center">
+              37.5%
+          </td>
+        </tr>
+        <tr id="region-AS">
+          <td class="region">
+            Middle East
+          </td>
+          <td class="m49" align="center">
+            <code>145</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>AS</code>
+          </td>
+          <td class="countryCount" align="center">
+            18
+          </td>
+          <td class="siteCount" align="center">
+            939
+          </td>
+          <td class="smpteSite" align="center">
+              40.16%
+          </td>
+        </tr>
+        <tr id="region-NA">
+          <td class="region">
+            North America
+          </td>
+          <td class="m49" align="center">
+            <code>019</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>NA</code>
+          </td>
+          <td class="countryCount" align="center">
+            4
+          </td>
+          <td class="siteCount" align="center">
+            6537
+          </td>
+          <td class="smpteSite" align="center">
+              95.68%
+          </td>
+        </tr>
+        <tr id="region-OC">
+          <td class="region">
+            Polynesia
+          </td>
+          <td class="m49" align="center">
+            <code>061</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>OC</code>
+          </td>
+          <td class="countryCount" align="center">
+            10
+          </td>
+          <td class="siteCount" align="center">
+            8
+          </td>
+          <td class="smpteSite" align="center">
+              34%
+          </td>
+        </tr>
+        <tr id="region-SA">
+          <td class="region">
+            South America
+          </td>
+          <td class="m49" align="center">
+            <code>005</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>SA</code>
+          </td>
+          <td class="countryCount" align="center">
+            16
+          </td>
+          <td class="siteCount" align="center">
+            1931
+          </td>
+          <td class="smpteSite" align="center">
+              69.52%
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Main content ends - do not edit below this line -->
+    <small class="text-muted">
+      <p class="text-center">Site Version: <code>b378931849f955f4fd8b49d57c8b79a952a42952</code></p>
+      <p class="text-center">Generated on Fri Jul 31 2020 18:31:41 GMT+0000 (Coordinated Universal Time)</p>
+    </small>
+</body>
+</html>

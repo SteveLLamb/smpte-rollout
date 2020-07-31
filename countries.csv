@@ -1,0 +1,249 @@
+region,country,m49,isoAlpha2,isoAlpha3,siteCount,smpteSite
+Africa,Algeria,012,DZ,DZA,14,64.29
+Africa,Angola,024,AO,AGO,10,70
+Africa,Benin,204,BJ,BEN,1,100
+Africa,Botswana,072,BW,BWA,5,
+Africa,British Indian Ocean Territory,086,IO,IOT,,
+Africa,Burkina Faso,854,BF,BFA,3,66.67
+Africa,Burundi,108,BI,BDI,,
+Africa,Cabo Verde,132,CV,CPV,1,100
+Africa,Cameroon,120,CM,CMR,6,66.67
+Africa,Central African Republic,140,CF,CAF,,
+Africa,Chad,148,TD,TCD,1,
+Africa,Comoros,174,KM,COM,,
+Africa,Congo,178,CG,COG,,
+Africa,Côte d’Ivoire,384,CI,CIV,6,66.67
+Africa,Democratic Republic of the Congo,180,CD,COD,8,75
+Africa,Djibouti,262,DJ,DJI,1,100
+Africa,Egypt,818,EG,EGY,64,6.25
+Africa,Equatorial Guinea,226,GQ,GNQ,1,
+Africa,Eritrea,232,ER,ERI,,
+Africa,Eswatini,748,SZ,SWZ,1,100
+Africa,Ethiopia,231,ET,ETH,5,60
+Africa,French Southern Territories,260,TF,ATF,,
+Africa,Gabon,266,GA,GAB,2,100
+Africa,Gambia,270,GM,GMB,,
+Africa,Ghana,288,GH,GHA,5,
+Africa,Guinea,324,GN,GIN,2,100
+Africa,Guinea-Bissau,624,GW,GNB,,
+Africa,Kenya,404,KE,KEN,13,92.31
+Africa,Lesotho,426,LS,LSO,,
+Africa,Liberia,430,LR,LBR,1,100
+Africa,Libya,434,LY,LBY,,
+Africa,Madagascar,450,MG,MDG,4,75
+Africa,Malawi,454,MW,MWI,,
+Africa,Mali,466,ML,MLI,1,100
+Africa,Mauritania,478,MR,MRT,,
+Africa,Mauritius,480,MU,MUS,13,46.15
+Africa,Mayotte,175,YT,MYT,2,50
+Africa,Morocco,504,MA,MAR,32,50
+Africa,Mozambique,508,MZ,MOZ,4,50
+Africa,Namibia,516,NA,NAM,4,25
+Africa,Niger,562,NE,NER,1,100
+Africa,Nigeria,566,NG,NGA,59,25.42
+Africa,Réunion,638,RE,REU,16,75
+Africa,Rwanda,646,RW,RWA,1,
+Africa,Saint Helena,654,SH,SHN,,
+Africa,Sao Tome and Principe,678,ST,STP,,
+Africa,Senegal,686,SN,SEN,6,33.33
+Africa,Seychelles,690,SC,SYC,2,
+Africa,Sierra Leone,694,SL,SLE,,
+Africa,Somalia,706,SO,SOM,,
+Africa,South Africa,710,ZA,ZAF,105,50
+Africa,South Sudan,728,SS,SSD,,
+Africa,Sudan,729,SD,SDN,1,
+Africa,Tanzania,834,TZ,TZA,11,90.91
+Africa,Togo,768,TG,TGO,2,100
+Africa,Tunisia,788,TU,TUN,29,51.72
+Africa,Uganda,800,UG,UGA,6,50
+Africa,Western Sahara,732,EH,ESH,,
+Africa,Zambia,894,ZM,ZMB,7,57.14
+Africa,Zimbabwe,716,ZW,ZWE,3,
+Asia Pacific,Afghanistan,004,AF,AFG,1,100
+Asia Pacific,Bangladesh,050,BD,BGD,6,
+Asia Pacific,Bhutan,064,BT,BTN,,
+Asia Pacific,Brunei Darussalam,096,BN,BRN,9,
+Asia Pacific,Cambodia,116,KH,KHM,22,63.64
+Asia Pacific,China,156,CN,CHN,10453,0.2
+Asia Pacific,China, Hong Kong Special Administrative Region,344,HK,HKG,79,20.25
+Asia Pacific,China, Macao Special Administrative Region,446,MO,MAC,7,16.67
+Asia Pacific,Democratic People's Republic of Korea,408,KP,PRK,,
+Asia Pacific,India,356,IN,IND,2753,1.78
+Asia Pacific,Indonesia,360,ID,IDN,421,43.94
+Asia Pacific,Iran (Islamic Republic of),364,IR,IRN,,
+Asia Pacific,Japan,392,JP,JPN,660,3.48
+Asia Pacific,Kazakhstan,398,KZ,KAZ,114,85.96
+Asia Pacific,Kyrgyzstan,417,KG,KGZ,12,91.67
+Asia Pacific,Lao People's Democratic Republic,418,LA,LAO,4,
+Asia Pacific,Malaysia,458,MY,MYS,176,17.05
+Asia Pacific,Maldives,462,MV,MDV,2,
+Asia Pacific,Mongolia,496,MN,MNG,14,
+Asia Pacific,Myanmar,104,MM,MMR,88,9.09
+Asia Pacific,Nepal,524,NP,NPL,46,2.17
+Asia Pacific,Pakistan,586,PK,PAK,74,78.38
+Asia Pacific,Philippines,608,PH,PHL,248,2.42
+Asia Pacific,Republic of Korea,410,KR,KOR,626,4.47
+Asia Pacific,Singapore,702,SG,SGP,58,81.03
+Asia Pacific,Sri Lanka,144,LK,LKA,65,26.15
+Asia Pacific,Tajikistan,762,TJ,TJK,3,66.67
+Asia Pacific,Thailand,764,TH,THA,279,1.43
+Asia Pacific,Timor-Leste,626,TL,TLS,1,
+Asia Pacific,Turkmenistan,795,TM,TKM,1,100
+Asia Pacific,Uzbekistan,860,UZ,UZB,17,88.24
+Asia Pacific,Viet Nam,704,VN,VNM,230,3.04
+Asia Pacific,Taiwan,,TW,TWN,147,21.77
+Asia Pacific,Christmas Island,162,CX,CXR,1,100
+Australia and New Zealand,Australia,036,AU,AUS,548,62.23
+Australia and New Zealand,New Zealand,554,NZ,NZL,152,51.32
+Australia and New Zealand,Norfolk Island,574,NF,NFK,,
+Caribbean,Bermuda,060,BM,BMU,10,90
+Caribbean,Anguilla,660,AI,AIA,,
+Caribbean,Antigua and Barbuda,028,AG,ATG,2,100
+Caribbean,Aruba,533,AW,ABW,5,100
+Caribbean,Bahamas,044,BS,BHS,9,100
+Caribbean,Barbados,052,BB,BRB,3,100
+Caribbean,Bonaire Sint Eustatius and Saba,535,BQ,BES,1,100
+Caribbean,British Virgin Islands,092,VG,VGB,1,100
+Caribbean,Cayman Islands,136,KY,CYM,3,100
+Caribbean,Cuba,192,CU,CUB,6,16.67
+Caribbean,Curaçao,531,CW,CUW,3,100
+Caribbean,Dominica,212,DM,DMA,1,100
+Caribbean,Dominican Republic,214,DO,DOM,32,96.88
+Caribbean,Grenada,308,GD,GRD,1,100
+Caribbean,Guadeloupe,312,GP,GLP,8,62.5
+Caribbean,Haiti,332,HT,HTI,,
+Caribbean,Jamaica,388,JM,JAM,6,100
+Caribbean,Martinique,474,MQ,MTQ,1,100
+Caribbean,Montserrat,500,MS,MSR,,
+Caribbean,Puerto Rico,630,PR,PRI,39,92.31
+Caribbean,Saint Barthélemy,652,BL,BLM,,
+Caribbean,Saint Kitts and Nevis,659,KN,KNA,1,100
+Caribbean,Saint Lucia,662,LC,LCA,1,100
+Caribbean,Saint Martin (French Part),663,MF,MAF,,100
+Caribbean,Saint Vincent and the Grenadines,670,VC,VCT,1,100
+Caribbean,Sint Maarten (Dutch part),534,SX,SXM,1,100
+Caribbean,Trinidad and Tobago,780,TT,TTO,11,100
+Caribbean,Turks and Caicos Islands,796,TC,TCA,,
+Caribbean,United States Virgin Islands,850,VI,VIR,2,100
+Central America,Belize,084,BZ,BLZ,1,100
+Central America,Costa Rica,188,CR,CRI,35,94.29
+Central America,El Salvador,222,SV,SLV,9,88.89
+Central America,Guatemala,320,GT,GTM,40,97.5
+Central America,Honduras,340,HN,HND,26,100
+Central America,Mexico,484,MX,MEX,995,97.49
+Central America,Nicaragua,558,NI,NIC,11,90.91
+Central America,Panama,591,PA,PAN,33,84.85
+Europe,Åland Islands,248,AX,ALA,,
+Europe,Albania,008,AL,ALB,7,57.14
+Europe,Andorra,020,AD,AND,1,100
+Europe,Austria,040,AT,AUT,173,83.24
+Europe,Belarus,112,BY,BLR,93,97.85
+Europe,Belgium,056,BE,BEL,160,84
+Europe,Bosnia and Herzegovina,070,BA,BIH,23,39.13
+Europe,Bulgaria,100,BG,BGR,83,30.12
+Europe,Croatia,191,HR,HRV,108,20.37
+Europe,Czech Republic,203,CZ,CZE,312,1.6
+Europe,Denmark,208,DK,DNK,181,91
+Europe,Estonia,233,EE,EST,47,85.11
+Europe,Faroe Islands,234,FO,FRO,3,66.67
+Europe,Finland,246,FI,FIN,194,88.14
+Europe,France,250,FR,FRA,2168,79.7
+Europe,Germany,276,DE,DEU,1636,80.26
+Europe,Gibraltar,292,GI,GIB,1,100
+Europe,Greece,300,GR,GRC,281,3.2
+Europe,Guernsey,831,GG,GGY,,
+Europe,Holy See,336,VA,VAT,,
+Europe,Hungary,348,HU,HUN,127,1.57
+Europe,Iceland,352,IS,ISL,16,100
+Europe,Ireland,372,IE,IRL,103,98
+Europe,Isle of Man,833,IM,IMN,,
+Europe,Italy,380,IT,ITA,1877,24
+Europe,Jersey,832,JE,JEY,,
+Europe,Latvia,428,LV,LVA,23,100
+Europe,Liechtenstein,438,LI,LIE,1,
+Europe,Lithuania,440,LT,LTU,20,100
+Europe,Luxembourg,442,LU,LUX,18,98
+Europe,Malta,470,MT,MLT,8,100
+Europe,Monaco,492,MC,MCO,4,25
+Europe,Montenegro,499,ME,MNE,6,
+Europe,Netherlands,528,NL,NLD,267,98
+Europe,Norway,578,NO,NOR,252,100
+Europe,Poland,616,PL,POL,544,85.85
+Europe,Portugal,620,PT,PRT,197,72.08
+Europe,Republic of Moldova,498,MD,MDA,5,80
+Europe,Romania,642,RO,ROU,113,5.31
+Europe,Russian Federation,643,RU,RUS,2304,77.26
+Europe,San Marino,674,SM,SMR,1,
+Europe,Sark,680,SARK,,,
+Europe,Serbia,688,RS,SRB,56,30.36
+Europe,Slovakia,703,SK,SVK,105,1.9
+Europe,Slovenia,705,SI,SVN,45,26.67
+Europe,Spain,724,ES,ESP,925,88.11
+Europe,Svalbard and Jan Mayen Islands,744,SJ,SJM,,
+Europe,Sweden,752,SE,SWE,448,87.05
+Europe,Switzerland,756,CH,CHE,348,57.47
+Europe,The former Yugoslav Republic of Macedonia,807,MK,MKD,7,57.14
+Europe,Ukraine,804,UA,UKR,248,19.76
+Europe,United Kingdom of Great Britain and Northern Ireland,826,GB,GBR,1011,98
+Europe,Kosovo,,XK,RKS,4,50
+Melanasia,Fiji,242,FJ,FJI,7,100
+Melanasia,New Caledonia,540,NC,NCL,3,100
+Melanasia,Papua New Guinea,598,PG,PNG,2,50
+Melanasia,Solomon Islands,090,SB,SLB,,
+Melanasia,Vanuatu,548,VU,VUT,1,100
+Micronesia,Guam,316,GU,GUM,5,100
+Micronesia,Kiribati,296,KI,KIR,,
+Micronesia,Marshall Islands,584,MH,MHL,,
+Micronesia,Micronesia (Federated States of),583,FM,FSM,1,100
+Micronesia,Nauru,520,NR,NRU,,
+Micronesia,Northern Mariana Islands,580,MP,MNP,1,100
+Micronesia,Palau,585,PW,PLW,,
+Micronesia,United States Minor Outlying Islands,581,UM,UMI,,
+Middle East,Armenia,051,AM,ARM,10,60
+Middle East,Azerbaijan,031,AZ,AZE,22,40.91
+Middle East,Bahrain,048,BH,BHR,17,5.88
+Middle East,Cyprus,196,CY,CYP,20,25
+Middle East,Georgia,268,GE,GEO,11,63.64
+Middle East,Iraq,368,IQ,IRQ,10,
+Middle East,Israel,376,IL,ISR,97,55.67
+Middle East,Jordan,400,JO,JOR,10,
+Middle East,Kuwait,414,KW,KWT,24,65
+Middle East,Lebanon,422,LB,LBN,29,
+Middle East,Oman,512,OM,OMN,25,8
+Middle East,Qatar,634,QA,QAT,22,95
+Middle East,Saudi Arabia,682,SA,SAU,33,100
+Middle East,State of Palestine,275,PS,PSE,2,
+Middle East,Syrian Arab Republic,760,SY,SYR,2,100
+Middle East,Turkey,792,TR,TUR,512,3.71
+Middle East,United Arab Emirates,784,AE,ARE,93,100
+Middle East,Yemen,887,YE,YEM,,
+North America,Canada,124,CA,CAN,704,88.64
+North America,Greenland,304,GL,GRL,3,100
+North America,Saint Pierre and Miquelon,666,PM,SPM,1,100
+North America,United States of America,840,US,USA,5829,94.08
+Polynesia,American Samoa,016,AS,ASM,1,100
+Polynesia,Cook Islands,184,CK,COK,1,100
+Polynesia,French Polynesia,258,PF,PYF,5,40
+Polynesia,Niue,570,NU,NIU,,
+Polynesia,Pitcairn,612,PN,PCN,,
+Polynesia,Samoa,882,WS,WSM,1,100
+Polynesia,Tokelau,772,TK,TKL,,
+Polynesia,Tonga,776,TO,TON,,
+Polynesia,Tuvalu,798,TV,TUV,,
+Polynesia,Wallis and Futuna Islands,876,WF,WLF,,
+South America,Argentina,032,AR,ARG,307,92.83
+South America,Bolivia (Plurinational State of),068,BO,BOL,24,100
+South America,Bouvet Island,074,BV,BVT,,
+South America,Brazil,076,BR,BRA,913,2.85
+South America,Chile,152,CL,CHL,109,93.58
+South America,Colombia,170,CO,COL,260,97.31
+South America,Ecuador,218,EC,ECU,52,96.15
+South America,Falkland Islands (Malvinas),238,FK,FLK,2,100
+South America,French Guiana,254,GF,GUF,4,50
+South America,Guyana,328,GY,GUY,5,60
+South America,Paraguay,600,PY,PRY,20,90
+South America,Peru,604,PE,PER,114,94.74
+South America,South Georgia and the South Sandwich Islands,239,GS,SGS,,
+South America,Suriname,740,SR,SUR,2,50
+South America,Uruguay,858,UY,URY,40,95
+South America,Venezuela (Bolivarian Republic of),862,VE,VEN,79,89.87
