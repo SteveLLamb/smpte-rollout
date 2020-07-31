@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {{>header}}
+
+    <!-- Main content starts - do not edit above this line -->
+    <table class="table table-small table-hover table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Region</th>
+          <th scope="col" class="text-center">m49</th>
+          <th scope="col" class="text-center">ISO Alpha 2</th>
+          <th scope="col" class="text-center">Total Countries</th>
+          <th scope="col" class="text-center">Total Site Count</th>
+          <th scope="col" class="text-center">SMPTE Percentage</th>
+        </tr>
+      </thead>
+      <tbody id="searchTable">
+        {{#data}}
+        <tr id="{{../idType}}-{{isoAlpha2}}">
+          <td class="region">
+            {{region}}
+          </td>
+          <td class="m49" align="center">
+            <code>{{m49}}</code>
+          </td>
+          <td class="isoAlpha2" align="center">
+            <code>{{isoAlpha2}}</code>
+          </td>
+          <td class="countryCount" align="center">
+            {{countryCount}}
+          </td>
+          <td class="siteCount" align="center">
+            {{siteCount}}
+          </td>
+          <td class="smpteSite" align="center">
+            {{#if smpteSite}}
+              {{smpteSite}}%
+            {{/if}}
+          </td>
+        </tr>
+        {{/data}}
+      </tbody>
+    </table>
+    <!-- Main content ends - do not edit below this line -->
+{{>footer}}
+
+</html>

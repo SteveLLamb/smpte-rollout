@@ -3,66 +3,45 @@
     "$id": "https://github.com/SteveLLamb/smpte-rollout/countries/0.0.1",
     "$comment": "Copyright, Steve LLamb <steve.llamb@gmail.com>",
     "title": "Schema for the SMPTE rollout",
-    "required": [
-        "regions",
-        "countries"
-    ],
-    "properties": {
-        "countries": {
-            "$id": "#/properties/countries",
-            "type": "array",
-            "additionalItems": true,
-            "items": {
-                "$id": "#/properties/countries/items",
-                "anyOf": [
-                    {
-                        "$id": "#/properties/countries/items/anyOf/0",
-                        "type": "object",
-                        "required": [
-                            "region",
-                            "country",
-                            "isoAlpha2"
-                        ],
-                        "properties": {
-                            "region": {
-                                "$id": "#/properties/countries/items/anyOf/0/properties/region",
-                                "type": "string"
-                            },
-                            "country": {
-                                "$id": "#/properties/countries/items/anyOf/0/properties/country",
-                                "type": "string"
-                            },
-                            "m49": {
-                                "$id": "#/properties/countries/items/anyOf/0/properties/m49",
-                                "type": "string"
-                            },
-                            "isoAlpha2": {
-                                "$id": "#/properties/countries/items/anyOf/0/properties/isoAlpha2",
-                                "type": "string"
-                            },
-                            "isoAlpha3": {
-                                "$id": "#/properties/countries/items/anyOf/0/properties/isoAlpha3",
-                                "type": "string"
-                            },
-                            "siteCount": {
-                                "$id": "#/properties/countries/items/anyOf/0/properties/siteCount",
-                                "type": "integer",
-                                "minimum": 0,
-                                "exclusiveMinimum": true,
-                            },
-                            "smpteSite": {
-                                "$id": "#/properties/countries/items/anyOf/0/properties/smpteSite",
-                                "type": "number",
-                                "minimum": 0,
-                                "exclusiveMinimum": true,
-                                "maximum": 100,
-                            }
-                        },
-                        "additionalProperties": true
+    "items": {
+        "anyOf": [
+            {
+                "type": "object",
+                "required": [
+                    "region",
+                    "country",
+                    "isoAlpha2"
+                ],
+                "properties": {
+                    "region": {
+                        "type": "string"
+                    },
+                    "country": {
+                        "type": "string"
+                    },
+                    "m49": {
+                        "type": "string"
+                    },
+                    "isoAlpha2": {
+                        "type": "string"
+                    },
+                    "isoAlpha3": {
+                        "type": "string"
+                    },
+                    "siteCount": {
+                        "type": "integer",
+                        "minimum": 1                    
+                    },
+                    "smpteSite": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 100
                     }
-                ]
+                },
+                "additionalProperties": true
             }
-        }
+        ]
+            
     },
     "additionalProperties": true
 }
