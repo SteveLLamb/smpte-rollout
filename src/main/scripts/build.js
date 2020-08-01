@@ -30,6 +30,12 @@ const registries = [
     "listTitle": "Countries"
   },
   {
+    "listType": "countries",
+    "templateType": "countries-map",
+    "idType": "country",
+    "listTitle": "Countries"
+  },
+  {
     "listType": "regions",
     "templateType": "regions",
     "idType": "region",
@@ -141,6 +147,28 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
       registry[i].smpteSite = spavg;
     }
   }
+
+  /* load the map data */
+
+  const cPercents = []
+
+  if (templateType == "countries-map") {
+
+    registry.forEach(item => {
+      scP = {}
+      scP["id"] = item.isoAlpha2;
+      if (item.smpteSite != null) {
+        scP["value"] = item.smpteSite
+      }
+      else {
+        scP["value"] = 0
+      };
+      cPercents.push(scP)
+    });
+
+    cPercentsData = JSON.stringify(cPercents)
+
+  }
   
   /* get the version field */
   
@@ -166,7 +194,8 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
     "site_version": site_version,
     "listType": listType,
     "idType": idType,
-    "listTitle": listTitle
+    "listTitle": listTitle,
+    "cPercents": cPercentsData
   });
   
   /* write HTML file */
@@ -179,44 +208,48 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
     f => fs.copyFile(path.join(SITE_PATH, f), path.join(BUILD_PATH, f))
   ))
   
-  /* write pdf */
-  
-  if (process.argv.slice(2).includes("--nopdf")) return;
-  
-  /* set the CHROMEPATH environment variable to provide your own Chrome executable */
-  
-  var pptr_options = {};
-  
-  if (process.env.CHROMEPATH) {
-    pptr_options.executablePath = process.env.CHROMEPATH;
-  }
-  
-  try {
-    var browser = await puppeteer.launch(pptr_options);
-    var page = await browser.newPage();
-    await page.setContent(html);
-    await page.pdf({ path: path.join(BUILD_PATH, PDF_SITE_PATH).toString()});
-    await browser.close();
-  } catch (e) {
-    console.warn(e);
-  }
+  if (templateType != "countries-map") {
 
-  /* write csv */
-
-  function toCSV(registry) {
-    var csv = "";
-    var keys = (registry[0] && Object.keys(registry[0])) || [];
-    csv += keys.join(',') + '\n';
-    for (var line of registry) {
-      csv += keys.map(key => line[key]).join(',') + '\n';
+    /* write pdf */
+    
+    if (process.argv.slice(2).includes("--nopdf")) return;
+    
+    /* set the CHROMEPATH environment variable to provide your own Chrome executable */
+    
+    var pptr_options = {};
+    
+    if (process.env.CHROMEPATH) {
+      pptr_options.executablePath = process.env.CHROMEPATH;
     }
-    return csv;
-  }
+    
+    try {
+      var browser = await puppeteer.launch(pptr_options);
+      var page = await browser.newPage();
+      await page.setContent(html);
+      await page.pdf({ path: path.join(BUILD_PATH, PDF_SITE_PATH).toString()});
+      await browser.close();
+    } catch (e) {
+      console.warn(e);
+    }
 
-  try {
-    await fs.writeFile((path.join(BUILD_PATH, CSV_SITE_PATH)), toCSV(registry));
-  } catch (e) {
-    console.warn(e);
+    /* write csv */
+
+    function toCSV(registry) {
+      var csv = "";
+      var keys = (registry[0] && Object.keys(registry[0])) || [];
+      csv += keys.join(',') + '\n';
+      for (var line of registry) {
+        csv += keys.map(key => line[key]).join(',') + '\n';
+      }
+      return csv;
+    }
+
+    try {
+      await fs.writeFile((path.join(BUILD_PATH, CSV_SITE_PATH)), toCSV(registry));
+    } catch (e) {
+      console.warn(e);
+    }
+
   }
 
   console.log(`Build of ${templateType} completed`)

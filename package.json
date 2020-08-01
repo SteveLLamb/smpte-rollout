@@ -15,5 +15,9 @@
     "ajv": "^6.10.2",
     "handlebars": "^4.7.6",
     "puppeteer": "^2.1.1"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.9.34",
+    "@amcharts/amcharts4-geodata": "^4.1.16"
   }
 }
