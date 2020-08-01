@@ -19,6 +19,11 @@ a.anchor {
     background-color: hsla(5, 76%, 62%, .8)
 }
 
+#chartdiv {
+      width: 100%;
+      height: 500px;
+    }
+
 .js .cd-top--fade-out {
     opacity: .5
 }
