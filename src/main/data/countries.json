@@ -545,7 +545,7 @@
     },
     {
         "region": "Asia Pacific",
-        "country": "China, Hong Kong Special Administrative Region",
+        "country": "China Hong Kong Special Administrative Region",
         "m49": "344",
         "isoAlpha2": "HK",
         "isoAlpha3": "HKG",
@@ -554,7 +554,7 @@
     },
     {
         "region": "Asia Pacific",
-        "country": "China, Macao Special Administrative Region",
+        "country": "China Macao Special Administrative Region",
         "m49": "446",
         "isoAlpha2": "MO",
         "isoAlpha3": "MAC",
