@@ -89,18 +89,25 @@
       "max": am4core.color("#43ba46")
     });
 
-    var heatLegend = chart.createChild(am4maps.HeatLegend);
-    heatLegend.series = polygonSeries;
+    var heatLegend = chart.chartContainer.createChild(am4maps.HeatLegend);
+    heatLegend.valign = "bottom";
+    heatLegend.align = "left";
     heatLegend.width = am4core.percent(100);
-
+    heatLegend.series = polygonSeries;
+    heatLegend.orientation = "vertical";
+    heatLegend.padding(20, 20, 20, 20);
+    heatLegend.valueAxis.renderer.labels.template.fontSize = 10;
+    heatLegend.valueAxis.renderer.minGridDistance = 40;
+    
     // Small map
     chart.smallMap = new am4maps.SmallMap();
     chart.smallMap.align = "left";
-    chart.smallMap.valign = "bottom";
+    chart.smallMap.valign = "top";
     chart.smallMap.series.push(polygonSeries);
 
     // Zoom control
     chart.zoomControl = new am4maps.ZoomControl();
+    chart.zoomControl.valign = "top";
 
     var homeButton = new am4core.Button();
     homeButton.events.on("hit", function(){
