@@ -58,11 +58,6 @@
     var lastSelected;
     polygonTemplate.events.on("hit", function(ev) {
       if (lastSelected) {
-        // This line serves multiple purposes:
-        // 1. Clicking a country twice actually de-activates, the line below
-        //    de-activates it in advance, so the toggle then re-activates, making it
-        //    appear as if it was never de-activated to begin with.
-        // 2. Previously activated countries should be de-activated.
         lastSelected.isActive = false;
       }
       ev.target.series.chart.zoomToMapObject(ev.target);
@@ -70,6 +65,9 @@
         lastSelected = ev.target;
       }
     })
+
+    chart.responsive.enabled = true;
+
 
     /* Create selected and hover states and set alternative fill color */
     var ss = polygonTemplate.states.create("active");
@@ -98,7 +96,7 @@
     heatLegend.padding(20, 20, 20, 20);
     heatLegend.valueAxis.renderer.labels.template.fontSize = 10;
     heatLegend.valueAxis.renderer.minGridDistance = 40;
-    
+
     // Small map
     chart.smallMap = new am4maps.SmallMap();
     chart.smallMap.align = "left";
