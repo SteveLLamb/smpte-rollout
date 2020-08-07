@@ -415,7 +415,7 @@
         "m49": "710",
         "isoAlpha2": "ZA",
         "isoAlpha3": "ZAF",
-        "siteCount": 105,
+        "siteCount": 105,   
         "smpteSite": 50
     },
     {
@@ -541,7 +541,7 @@
         "isoAlpha2": "CN",
         "isoAlpha3": "CHN",
         "siteCount": 10453,
-        "smpteSite": 0.2
+        "smpteSite": 0.11
     },
     {
         "region": "Asia Pacific",
@@ -559,7 +559,7 @@
         "isoAlpha2": "MO",
         "isoAlpha3": "MAC",
         "siteCount": 7,
-        "smpteSite": 16.67
+        "smpteSite": 14.29
     },
     {
         "region": "Asia Pacific",
@@ -1043,7 +1043,7 @@
         "isoAlpha2": "TT",
         "isoAlpha3": "TTO",
         "siteCount": 11,
-        "smpteSite": 100
+        "smpteSite": 72.73
     },
     {
         "region": "Caribbean",
@@ -1228,7 +1228,7 @@
         "isoAlpha2": "DK",
         "isoAlpha3": "DNK",
         "siteCount": 181,
-        "smpteSite": 91
+        "smpteSite": 86.74
     },
     {
         "region": "Europe",
@@ -1425,7 +1425,7 @@
         "isoAlpha2": "NL",
         "isoAlpha3": "NLD",
         "siteCount": 267,
-        "smpteSite": 98
+        "smpteSite": 100
     },
     {
         "region": "Europe",
