@@ -64,9 +64,9 @@ Asia Pacific,Bangladesh,050,BD,BGD,6,
 Asia Pacific,Bhutan,064,BT,BTN,,
 Asia Pacific,Brunei Darussalam,096,BN,BRN,9,
 Asia Pacific,Cambodia,116,KH,KHM,22,63.64
-Asia Pacific,China,156,CN,CHN,10453,0.2
+Asia Pacific,China,156,CN,CHN,10453,0.11
 Asia Pacific,China Hong Kong Special Administrative Region,344,HK,HKG,79,20.25
-Asia Pacific,China Macao Special Administrative Region,446,MO,MAC,7,16.67
+Asia Pacific,China Macao Special Administrative Region,446,MO,MAC,7,14.29
 Asia Pacific,Democratic People's Republic of Korea,408,KP,PRK,,
 Asia Pacific,India,356,IN,IND,2753,1.78
 Asia Pacific,Indonesia,360,ID,IDN,421,43.94
@@ -122,7 +122,7 @@ Caribbean,Saint Lucia,662,LC,LCA,1,100
 Caribbean,Saint Martin (French Part),663,MF,MAF,,100
 Caribbean,Saint Vincent and the Grenadines,670,VC,VCT,1,100
 Caribbean,Sint Maarten (Dutch part),534,SX,SXM,1,100
-Caribbean,Trinidad and Tobago,780,TT,TTO,11,100
+Caribbean,Trinidad and Tobago,780,TT,TTO,11,72.73
 Caribbean,Turks and Caicos Islands,796,TC,TCA,,
 Caribbean,United States Virgin Islands,850,VI,VIR,2,100
 Central America,Belize,084,BZ,BLZ,1,100
@@ -143,7 +143,7 @@ Europe,Bosnia and Herzegovina,070,BA,BIH,23,39.13
 Europe,Bulgaria,100,BG,BGR,83,30.12
 Europe,Croatia,191,HR,HRV,108,20.37
 Europe,Czech Republic,203,CZ,CZE,312,1.6
-Europe,Denmark,208,DK,DNK,181,91
+Europe,Denmark,208,DK,DNK,181,86.74
 Europe,Estonia,233,EE,EST,47,85.11
 Europe,Faroe Islands,234,FO,FRO,3,66.67
 Europe,Finland,246,FI,FIN,194,88.14
@@ -166,7 +166,7 @@ Europe,Luxembourg,442,LU,LUX,18,98
 Europe,Malta,470,MT,MLT,8,100
 Europe,Monaco,492,MC,MCO,4,25
 Europe,Montenegro,499,ME,MNE,6,
-Europe,Netherlands,528,NL,NLD,267,98
+Europe,Netherlands,528,NL,NLD,267,100
 Europe,Norway,578,NO,NOR,252,100
 Europe,Poland,616,PL,POL,544,85.85
 Europe,Portugal,620,PT,PRT,197,72.08
