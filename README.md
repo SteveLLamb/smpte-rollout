@@ -10,6 +10,6 @@ The list data is:
 
 A build of the website from the `master` branch is automatically published at:
 
-* https://stevellamb.github.io/smpte-rollout/countries.html
-* https://stevellamb.github.io/smpte-rollout/countries-map.html
-* https://stevellamb.github.io/smpte-rollout/regions.html
+* https://stevellamb.github.io/smpte-rollout/countries
+* https://stevellamb.github.io/smpte-rollout/countries-map
+* https://stevellamb.github.io/smpte-rollout/regions
