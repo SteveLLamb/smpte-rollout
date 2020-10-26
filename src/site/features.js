@@ -25,7 +25,7 @@ $(document).ready(function() {
       "paging": false,
       "info": false,
       "searching": false,
-      fixedHeader: true
+      fixedHeader: false
     });
 } );
 
