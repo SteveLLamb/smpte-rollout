@@ -3,7 +3,9 @@
   "version": "1.0.0-beta.1",
   "description": "SMPTE Rollout Counts",
   "scripts": {
-    "build": "node src/main/scripts/build.js"
+    "build": "node src/main/scripts/build.js",
+    "validate": "node src/main/scripts/validate.js",
+    "canonicalize": "node src/main/scripts/canonicalize.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "dependencies": {
     "@amcharts/amcharts4": "^4.9.34",
-    "@amcharts/amcharts4-geodata": "^4.1.16"
+    "@amcharts/amcharts4-geodata": "^4.1.16",
+    "json-stable-stringify": "^1.0.1"
   }
 }

@@ -1,62 +1,62 @@
 [
-    {
-        "region": "Africa",
-        "m49": "002",
-        "isoAlpha2": "AF"
-    },
-    {
-        "region": "Asia Pacific",
-        "m49": "142",
-        "isoAlpha2": "AS"
-    },
-    {
-        "region": "Australia and New Zealand",
-        "m49": "053",
-        "isoAlpha2": "OC"
-    },
-    {
-        "region": "Caribbean",
-        "m49": "029",
-        "isoAlpha2": "NA"
-    },
-    {
-        "region": "Central America",
-        "m49": "013",
-        "isoAlpha2": "NA"
-    },
-    {
-        "region": "Europe",
-        "m49": "150",
-        "isoAlpha2": "EU"
-    },
-    {
-        "region": "Melanasia",
-        "m49": "054",
-        "isoAlpha2": "OC"
-    },
-    {
-        "region": "Micronesia",
-        "m49": "057",
-        "isoAlpha2": "OC"
-    },
-    {
-        "region": "Middle East",
-        "m49": "145",
-        "isoAlpha2": "AS"
-    },
-    {
-        "region": "North America",
-        "m49": "019",
-        "isoAlpha2": "NA"
-    },
-    {
-        "region": "Polynesia",
-        "m49": "061",
-        "isoAlpha2": "OC"
-    },
-    {
-        "region": "South America",
-        "m49": "005",
-        "isoAlpha2": "SA"
-    }
+  {
+    "isoAlpha2": "AF",
+    "m49": "002",
+    "region": "Africa"
+  },
+  {
+    "isoAlpha2": "AS",
+    "m49": "142",
+    "region": "Asia Pacific"
+  },
+  {
+    "isoAlpha2": "OC",
+    "m49": "053",
+    "region": "Australia and New Zealand"
+  },
+  {
+    "isoAlpha2": "NA",
+    "m49": "029",
+    "region": "Caribbean"
+  },
+  {
+    "isoAlpha2": "NA",
+    "m49": "013",
+    "region": "Central America"
+  },
+  {
+    "isoAlpha2": "EU",
+    "m49": "150",
+    "region": "Europe"
+  },
+  {
+    "isoAlpha2": "OC",
+    "m49": "054",
+    "region": "Melanasia"
+  },
+  {
+    "isoAlpha2": "OC",
+    "m49": "057",
+    "region": "Micronesia"
+  },
+  {
+    "isoAlpha2": "AS",
+    "m49": "145",
+    "region": "Middle East"
+  },
+  {
+    "isoAlpha2": "NA",
+    "m49": "019",
+    "region": "North America"
+  },
+  {
+    "isoAlpha2": "OC",
+    "m49": "061",
+    "region": "Polynesia"
+  },
+  {
+    "isoAlpha2": "SA",
+    "m49": "005",
+    "region": "South America"
+  }
 ]
