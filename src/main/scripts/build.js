@@ -144,8 +144,8 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
         return currentElement.region === rg && currentElement.siteCount != null;
       });
       let avGcC = avGcountriesFiltered.length;
-
       var spavg = round((spsum/avGcC), 2);
+sdf
 
       registry[i].countryCount = cC;
       registry[i].siteCount = stsum;
