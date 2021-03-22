@@ -117,8 +117,12 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
 
     for (let i in registry) {
       let rg = registry[i]["region"];
-      let countriesFiltered = countries.filter(value => value.region === rg);
+      console.log(rg)
+      let countriesFiltered = countries.filter(function (currentElement) {
+        return currentElement.region === rg && currentElement.siteCount != null;
+      });
       let cC = countriesFiltered.length;
+      console.log(cC)
       
       let stsum = 0; 
       countriesFiltered.forEach(obj => {
@@ -127,6 +131,8 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
               stsum += obj[p];
           }
       })
+
+      console.log(stsum)
 
       let spsum = 0; 
       countriesFiltered.forEach(obj => {
