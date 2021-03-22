@@ -117,12 +117,8 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
 
     for (let i in registry) {
       let rg = registry[i]["region"];
-      console.log(rg)
-      let countriesFiltered = countries.filter(function (currentElement) {
-        return currentElement.region === rg && currentElement.siteCount != null;
-      });
+      let countriesFiltered = countries.filter(value => value.region === rg);
       let cC = countriesFiltered.length;
-      console.log(cC)
       
       let stsum = 0; 
       countriesFiltered.forEach(obj => {
@@ -131,8 +127,6 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
               stsum += obj[p];
           }
       })
-
-      console.log(stsum)
 
       let spsum = 0; 
       countriesFiltered.forEach(obj => {
@@ -146,7 +140,12 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
         return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
       }
 
-      var spavg = round((spsum/cC), 2);
+      let avGcountriesFiltered = countries.filter(function (currentElement) {
+        return currentElement.region === rg && currentElement.siteCount != null;
+      });
+      let avGcC = avGcountriesFiltered.length;
+
+      var spavg = round((spsum/avGcC), 2);
 
       registry[i].countryCount = cC;
       registry[i].siteCount = stsum;
