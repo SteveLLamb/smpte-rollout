@@ -140,12 +140,12 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
         return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
       }
 
+      /* calculate only countries with sites */
       let avGcountriesFiltered = countries.filter(function (currentElement) {
         return currentElement.region === rg && currentElement.siteCount != null;
       });
       let avGcC = avGcountriesFiltered.length;
       var spavg = round((spsum/avGcC), 2);
-sdf
 
       registry[i].countryCount = cC;
       registry[i].siteCount = stsum;
