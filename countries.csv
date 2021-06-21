@@ -1,6 +1,6 @@
 country,isoAlpha2,isoAlpha3,m49,region,siteCount,smpteSite
 Andorra,AD,AND,020,Europe,1,100
-United Arab Emirates,AE,ARE,784,Middle East,96,100
+United Arab Emirates,AE,ARE,784,Middle East,98,100
 Afghanistan,AF,AFG,004,Asia Pacific,1,100
 Antigua and Barbuda,AG,ATG,028,Caribbean,2,100
 Anguilla,AI,AIA,660,Caribbean,,
@@ -10,70 +10,70 @@ Angola,AO,AGO,024,Africa,10,70
 Argentina,AR,ARG,032,South America,311,92.93
 American Samoa,AS,ASM,016,Polynesia,1,100
 Austria,AT,AUT,040,Europe,175,82.86
-Australia,AU,AUS,036,Australia and New Zealand,567,75.31
-Aruba,AW,ABW,533,Caribbean,7,71.43
+Australia,AU,AUS,036,Australia and New Zealand,571,83.19
+Aruba,AW,ABW,533,Caribbean,7,100
 Åland Islands,AX,ALA,248,Europe,,
 Azerbaijan,AZ,AZE,031,Middle East,22,40.91
-Bosnia and Herzegovina,BA,BIH,070,Europe,26,65.38
+Bosnia and Herzegovina,BA,BIH,070,Europe,27,62.96
 Barbados,BB,BRB,052,Caribbean,3,100
 Bangladesh,BD,BGD,050,Asia Pacific,6,
 Belgium,BE,BEL,056,Europe,163,84
 Burkina Faso,BF,BFA,854,Africa,3,66.67
-Bulgaria,BG,BGR,100,Europe,85,34.12
+Bulgaria,BG,BGR,100,Europe,83,33.73
 Bahrain,BH,BHR,048,Middle East,18,5.56
 Burundi,BI,BDI,108,Africa,,
 Benin,BJ,BEN,204,Africa,1,100
 Saint Barthélemy,BL,BLM,652,Caribbean,,
 Bermuda,BM,BMU,060,Caribbean,10,90
-Brunei Darussalam,BN,BRN,096,Asia Pacific,9,
-Bolivia (Plurinational State of),BO,BOL,068,South America,25,96
+Brunei Darussalam,BN,BRN,096,Asia Pacific,10,
+Bolivia (Plurinational State of),BO,BOL,068,South America,26,96.15
 Bonaire Sint Eustatius and Saba,BQ,BES,535,Caribbean,1,100
-Brazil,BR,BRA,076,South America,930,3.33
+Brazil,BR,BRA,076,South America,934,3.53
 Bahamas,BS,BHS,044,Caribbean,9,100
 Bhutan,BT,BTN,064,Asia Pacific,,
 Bouvet Island,BV,BVT,074,South America,,
 Botswana,BW,BWA,072,Africa,5,60
-Belarus,BY,BLR,112,Europe,97,95.88
+Belarus,BY,BLR,112,Europe,99,94.95
 Belize,BZ,BLZ,084,Central America,1,100
-Canada,CA,CAN,124,North America,701,88.73
-Democratic Republic of the Congo,CD,COD,180,Africa,8,75
+Canada,CA,CAN,124,North America,699,88.98
+Democratic Republic of the Congo,CD,COD,180,Africa,8,87.5
 Central African Republic,CF,CAF,140,Africa,,
 Congo,CG,COG,178,Africa,,
-Switzerland,CH,CHE,756,Europe,355,58.03
+Switzerland,CH,CHE,756,Europe,355,59.72
 Côte d’Ivoire,CI,CIV,384,Africa,6,66.67
 Cook Islands,CK,COK,184,Polynesia,1,100
 Chile,CL,CHL,152,South America,109,94.5
 Cameroon,CM,CMR,120,Africa,6,66.67
 China,CN,CHN,156,Asia Pacific,10453,0.11
-Colombia,CO,COL,170,South America,279,96.77
+Colombia,CO,COL,170,South America,278,96.76
 Costa Rica,CR,CRI,188,Central America,35,94.29
 Cuba,CU,CUB,192,Caribbean,6,16.67
 Cabo Verde,CV,CPV,132,Africa,1,100
 Curaçao,CW,CUW,531,Caribbean,3,100
 Christmas Island,CX,CXR,162,Asia Pacific,1,100
 Cyprus,CY,CYP,196,Middle East,20,55
-Czech Republic,CZ,CZE,203,Europe,317,1.58
-Germany,DE,DEU,276,Europe,1654,79.44
+Czech Republic,CZ,CZE,203,Europe,320,1.56
+Germany,DE,DEU,276,Europe,1663,79.31
 Djibouti,DJ,DJI,262,Africa,1,100
 Denmark,DK,DNK,208,Europe,182,86.81
 Dominica,DM,DMA,212,Caribbean,1,100
 Dominican Republic,DO,DOM,214,Caribbean,32,96.88
 Algeria,DZ,DZA,012,Africa,14,64.29
-Ecuador,EC,ECU,218,South America,58,87.93
+Ecuador,EC,ECU,218,South America,59,93.22
 Estonia,EE,EST,233,Europe,48,85.42
-Egypt,EG,EGY,818,Africa,65,6.15
+Egypt,EG,EGY,818,Africa,66,6.06
 Western Sahara,EH,ESH,732,Africa,,
 Eritrea,ER,ERI,232,Africa,,
-Spain,ES,ESP,724,Europe,944,86.97
+Spain,ES,ESP,724,Europe,952,86.87
 Ethiopia,ET,ETH,231,Africa,5,60
 Finland,FI,FIN,246,Europe,194,89.69
 Fiji,FJ,FJI,242,Melanasia,7,100
 Falkland Islands (Malvinas),FK,FLK,238,South America,2,100
 Micronesia (Federated States of),FM,FSM,583,Micronesia,1,100
 Faroe Islands,FO,FRO,234,Europe,3,66.67
-France,FR,FRA,250,Europe,2177,79.42
+France,FR,FRA,250,Europe,2193,80.26
 Gabon,GA,GAB,266,Africa,2,100
-United Kingdom of Great Britain and Northern Ireland,GB,GBR,826,Europe,1027,98
+United Kingdom of Great Britain and Northern Ireland,GB,GBR,826,Europe,1036,98
 Grenada,GD,GRD,308,Caribbean,1,100
 Georgia,GE,GEO,268,Middle East,11,63.64
 French Guiana,GF,GUF,254,South America,4,50
@@ -85,31 +85,31 @@ Gambia,GM,GMB,270,Africa,,
 Guinea,GN,GIN,324,Africa,2,100
 Guadeloupe,GP,GLP,312,Caribbean,8,62.5
 Equatorial Guinea,GQ,GNQ,226,Africa,1,
-Greece,GR,GRC,300,Europe,282,17.73
+Greece,GR,GRC,300,Europe,283,17.67
 South Georgia and the South Sandwich Islands,GS,SGS,239,South America,,
 Guatemala,GT,GTM,320,Central America,40,97.5
 Guam,GU,GUM,316,Micronesia,4,100
 Guinea-Bissau,GW,GNB,624,Africa,,
 Guyana,GY,GUY,328,South America,5,60
 China Hong Kong Special Administrative Region,HK,HKG,344,Asia Pacific,81,40.74
-Honduras,HN,HND,340,Central America,26,100
-Croatia,HR,HRV,191,Europe,113,61.95
+Honduras,HN,HND,340,Central America,27,100
+Croatia,HR,HRV,191,Europe,117,59.83
 Haiti,HT,HTI,332,Caribbean,,
-Hungary,HU,HUN,348,Europe,130,1.54
-Indonesia,ID,IDN,360,Asia Pacific,429,44.52
+Hungary,HU,HUN,348,Europe,132,1.52
+Indonesia,ID,IDN,360,Asia Pacific,429,92.77
 Ireland,IE,IRL,372,Europe,103,98
-Israel,IL,ISR,376,Middle East,97,55.67
+Israel,IL,ISR,376,Middle East,97,56.7
 Isle of Man,IM,IMN,833,Europe,,
-India,IN,IND,356,Asia Pacific,2770,15.37
+India,IN,IND,356,Asia Pacific,2788,15.37
 British Indian Ocean Territory,IO,IOT,086,Africa,,
-Iraq,IQ,IRQ,368,Middle East,12,
+Iraq,IQ,IRQ,368,Middle East,13,
 Iran (Islamic Republic of),IR,IRN,364,Asia Pacific,,
 Iceland,IS,ISL,352,Europe,17,100
-Italy,IT,ITA,380,Europe,1900,24
+Italy,IT,ITA,380,Europe,1904,24
 Jersey,JE,JEY,832,Europe,,
 Jamaica,JM,JAM,388,Caribbean,6,100
 Jordan,JO,JOR,400,Middle East,10,
-Japan,JP,JPN,392,Asia Pacific,666,3.45
+Japan,JP,JPN,392,Asia Pacific,668,3.59
 Kenya,KE,KEN,404,Africa,14,85.71
 Kyrgyzstan,KG,KGZ,417,Asia Pacific,12,91.67
 Cambodia,KH,KHM,116,Asia Pacific,23,69.57
@@ -117,10 +117,10 @@ Kiribati,KI,KIR,296,Micronesia,,
 Comoros,KM,COM,174,Africa,,
 Saint Kitts and Nevis,KN,KNA,659,Caribbean,1,100
 Democratic People's Republic of Korea,KP,PRK,408,Asia Pacific,,
-Republic of Korea,KR,KOR,410,Asia Pacific,650,92.62
+Republic of Korea,KR,KOR,410,Asia Pacific,657,91.32
 Kuwait,KW,KWT,414,Middle East,25,65
 Cayman Islands,KY,CYM,136,Caribbean,3,100
-Kazakhstan,KZ,KAZ,398,Asia Pacific,117,88.03
+Kazakhstan,KZ,KAZ,398,Asia Pacific,119,87.39
 Lao People's Democratic Republic,LA,LAO,418,Asia Pacific,4,
 Lebanon,LB,LBN,422,Middle East,29,
 Saint Lucia,LC,LCA,662,Caribbean,1,100
@@ -129,7 +129,7 @@ Sri Lanka,LK,LKA,144,Asia Pacific,66,25.76
 Liberia,LR,LBR,430,Africa,1,100
 Lesotho,LS,LSO,426,Africa,,
 Lithuania,LT,LTU,440,Europe,20,100
-Luxembourg,LU,LUX,442,Europe,18,98
+Luxembourg,LU,LUX,442,Europe,19,98
 Latvia,LV,LVA,428,Europe,23,100
 Libya,LY,LBY,434,Africa,,
 Morocco,MA,MAR,504,Africa,32,50
@@ -152,53 +152,53 @@ Malta,MT,MLT,470,Europe,8,100
 Mauritius,MU,MUS,480,Africa,13,53.85
 Maldives,MV,MDV,462,Asia Pacific,2,
 Malawi,MW,MWI,454,Africa,,
-Mexico,MX,MEX,484,Central America,1006,96.92
-Malaysia,MY,MYS,458,Asia Pacific,175,18.29
+Mexico,MX,MEX,484,Central America,1012,96.84
+Malaysia,MY,MYS,458,Asia Pacific,177,18.08
 Mozambique,MZ,MOZ,508,Africa,4,50
 Namibia,NA,NAM,516,Africa,4,100
 New Caledonia,NC,NCL,540,Melanasia,3,100
 Niger,NE,NER,562,Africa,1,100
 Norfolk Island,NF,NFK,574,Australia and New Zealand,,
-Nigeria,NG,NGA,566,Africa,70,82.86
+Nigeria,NG,NGA,566,Africa,71,81.69
 Nicaragua,NI,NIC,558,Central America,11,90.91
-Netherlands,NL,NLD,528,Europe,271,95.2
+Netherlands,NL,NLD,528,Europe,272,94.85
 Norway,NO,NOR,578,Europe,252,96.83
 Nepal,NP,NPL,524,Asia Pacific,46,2.17
 Nauru,NR,NRU,520,Micronesia,,
 Niue,NU,NIU,570,Polynesia,,
-New Zealand,NZ,NZL,554,Australia and New Zealand,155,81.94
+New Zealand,NZ,NZL,554,Australia and New Zealand,156,85.9
 Oman,OM,OMN,512,Middle East,25,8
-Panama,PA,PAN,591,Central America,33,84.85
+Panama,PA,PAN,591,Central America,33,87.88
 Peru,PE,PER,604,South America,115,94.78
 French Polynesia,PF,PYF,258,Polynesia,6,33.33
 Papua New Guinea,PG,PNG,598,Melanasia,2,50
 Philippines,PH,PHL,608,Asia Pacific,250,2.4
 Pakistan,PK,PAK,586,Asia Pacific,75,77.33
-Poland,PL,POL,616,Europe,554,86.64
+Poland,PL,POL,616,Europe,559,86.23
 Saint Pierre and Miquelon,PM,SPM,666,North America,1,100
 Pitcairn,PN,PCN,612,Polynesia,,
 Puerto Rico,PR,PRI,630,Caribbean,39,94.87
 State of Palestine,PS,PSE,275,Middle East,2,
-Portugal,PT,PRT,620,Europe,204,74.51
+Portugal,PT,PRT,620,Europe,206,73.79
 Palau,PW,PLW,585,Micronesia,,
 Paraguay,PY,PRY,600,South America,20,90
-Qatar,QA,QAT,634,Middle East,23,95
+Qatar,QA,QAT,634,Middle East,24,95
 Réunion,RE,REU,638,Africa,16,81.25
-Romania,RO,ROU,642,Europe,115,5.22
-Serbia,RS,SRB,688,Europe,62,64.52
-Russian Federation,RU,RUS,643,Europe,2387,79.1
-Rwanda,RW,RWA,646,Africa,2,
-Saudi Arabia,SA,SAU,682,Middle East,50,100
+Romania,RO,ROU,642,Europe,116,5.17
+Serbia,RS,SRB,688,Europe,64,64.06
+Russian Federation,RU,RUS,643,Europe,2416,79.1
+Rwanda,RW,RWA,646,Africa,2,50
+Saudi Arabia,SA,SAU,682,Middle East,57,100
 Sark,SARK,,680,Europe,,
 Solomon Islands,SB,SLB,090,Melanasia,,
 Seychelles,SC,SYC,690,Africa,2,50
 Sudan,SD,SDN,729,Africa,1,
-Sweden,SE,SWE,752,Europe,451,86.92
-Singapore,SG,SGP,702,Asia Pacific,58,81.03
+Sweden,SE,SWE,752,Europe,453,86.53
+Singapore,SG,SGP,702,Asia Pacific,59,83.05
 Saint Helena,SH,SHN,654,Africa,,
 Slovenia,SI,SVN,705,Europe,45,48.89
 Svalbard and Jan Mayen Islands,SJ,SJM,744,Europe,,
-Slovakia,SK,SVK,703,Europe,107,1.87
+Slovakia,SK,SVK,703,Europe,109,1.83
 Sierra Leone,SL,SLE,694,Africa,,
 San Marino,SM,SMR,674,Europe,1,
 Senegal,SN,SEN,686,Africa,6,33.33
@@ -214,30 +214,30 @@ Turks and Caicos Islands,TC,TCA,796,Caribbean,,
 Chad,TD,TCD,148,Africa,1,
 French Southern Territories,TF,ATF,260,Africa,,
 Togo,TG,TGO,768,Africa,2,100
-Thailand,TH,THA,764,Asia Pacific,277,1.44
+Thailand,TH,THA,764,Asia Pacific,274,1.46
 Tajikistan,TJ,TJK,762,Asia Pacific,3,66.67
 Tokelau,TK,TKL,772,Polynesia,,
 Timor-Leste,TL,TLS,626,Asia Pacific,1,
 Turkmenistan,TM,TKM,795,Asia Pacific,1,100
 Tonga,TO,TON,776,Polynesia,,
-Turkey,TR,TUR,792,Middle East,519,3.66
+Turkey,TR,TUR,792,Middle East,522,3.64
 Trinidad and Tobago,TT,TTO,780,Caribbean,12,83.33
 Tunisia,TU,TUN,788,Africa,29,51.72
 Tuvalu,TV,TUV,798,Polynesia,,
-Taiwan,TW,TWN,,Asia Pacific,150,23.33
+Taiwan,TW,TWN,,Asia Pacific,150,24
 Tanzania,TZ,TZA,834,Africa,11,90.91
-Ukraine,UA,UKR,804,Europe,259,19.22
+Ukraine,UA,UKR,804,Europe,262,18.32
 Uganda,UG,UGA,800,Africa,7,57.14
 United States Minor Outlying Islands,UM,UMI,581,Micronesia,,
-United States of America,US,USA,840,North America,5802,94.21
+United States of America,US,USA,840,North America,5809,94.35
 Uruguay,UY,URY,858,South America,42,92.86
-Uzbekistan,UZ,UZB,860,Asia Pacific,18,88.89
+Uzbekistan,UZ,UZB,860,Asia Pacific,20,90
 Holy See,VA,VAT,336,Europe,,
 Saint Vincent and the Grenadines,VC,VCT,670,Caribbean,1,100
 Venezuela (Bolivarian Republic of),VE,VEN,862,South America,80,90
 British Virgin Islands,VG,VGB,092,Caribbean,1,100
 United States Virgin Islands,VI,VIR,850,Caribbean,2,100
-Viet Nam,VN,VNM,704,Asia Pacific,233,79.4
+Viet Nam,VN,VNM,704,Asia Pacific,234,79.06
 Vanuatu,VU,VUT,548,Melanasia,1,100
 Wallis and Futuna Islands,WF,WLF,876,Polynesia,,
 Samoa,WS,WSM,882,Polynesia,1,100
