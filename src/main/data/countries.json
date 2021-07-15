@@ -102,8 +102,8 @@
     "isoAlpha3": "AUS",
     "m49": "036",
     "region": "Australia and New Zealand",
-    "siteCount": 571,
-    "smpteSite": 83.71
+    "siteCount": 570,
+    "smpteSite": 83.86
   },
   {
     "country": "Aruba",
@@ -315,8 +315,8 @@
     "isoAlpha3": "CAN",
     "m49": "124",
     "region": "North America",
-    "siteCount": 699,
-    "smpteSite": 89.13
+    "siteCount": 689,
+    "smpteSite": 90.42
   },
   {
     "country": "Democratic Republic of the Congo",
@@ -649,7 +649,7 @@
     "isoAlpha3": "GBR",
     "m49": "826",
     "region": "Europe",
-    "siteCount": 1036,
+    "siteCount": 1033,
     "smpteSite": 98
   },
   {
@@ -878,7 +878,7 @@
     "isoAlpha3": "IND",
     "m49": "356",
     "region": "Asia Pacific",
-    "siteCount": 2788,
+    "siteCount": 2786,
     "smpteSite": 15.37
   },
   {
@@ -951,8 +951,8 @@
     "isoAlpha3": "JPN",
     "m49": "392",
     "region": "Asia Pacific",
-    "siteCount": 668,
-    "smpteSite": 3.59
+    "siteCount": 667,
+    "smpteSite": 3.6
   },
   {
     "country": "Kenya",
@@ -1061,7 +1061,7 @@
     "isoAlpha3": "LBN",
     "m49": "422",
     "region": "Middle East",
-    "siteCount": 29
+    "siteCount": 28
   },
   {
     "country": "Saint Lucia",
@@ -1314,8 +1314,8 @@
     "isoAlpha3": "MEX",
     "m49": "484",
     "region": "Central America",
-    "siteCount": 1012,
-    "smpteSite": 97.33
+    "siteCount": 1011,
+    "smpteSite": 97.43
   },
   {
     "country": "Malaysia",
@@ -1548,8 +1548,8 @@
     "isoAlpha3": "PRT",
     "m49": "620",
     "region": "Europe",
-    "siteCount": 206,
-    "smpteSite": 73.79
+    "siteCount": 205,
+    "smpteSite": 74.15
   },
   {
     "country": "Palau",
@@ -1837,8 +1837,8 @@
     "isoAlpha3": "THA",
     "m49": "764",
     "region": "Asia Pacific",
-    "siteCount": 274,
-    "smpteSite": 1.46
+    "siteCount": 273,
+    "smpteSite": 1.47
   },
   {
     "country": "Tajikistan",
@@ -1962,8 +1962,8 @@
     "isoAlpha3": "USA",
     "m49": "840",
     "region": "North America",
-    "siteCount": 5809,
-    "smpteSite": 94.35
+    "siteCount": 5557,
+    "smpteSite": 98.88
   },
   {
     "country": "Uruguay",
