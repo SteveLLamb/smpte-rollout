@@ -94,7 +94,7 @@
     "m49": "040",
     "region": "Europe",
     "siteCount": 175,
-    "smpteSite": 82.86
+    "smpteSite": 83.43
   },
   {
     "country": "Australia",
@@ -103,7 +103,7 @@
     "m49": "036",
     "region": "Australia and New Zealand",
     "siteCount": 571,
-    "smpteSite": 83.19
+    "smpteSite": 83.71
   },
   {
     "country": "Aruba",
@@ -257,7 +257,7 @@
     "m49": "076",
     "region": "South America",
     "siteCount": 934,
-    "smpteSite": 3.53
+    "smpteSite": 3.64
   },
   {
     "country": "Bahamas",
@@ -298,7 +298,7 @@
     "m49": "112",
     "region": "Europe",
     "siteCount": 99,
-    "smpteSite": 94.95
+    "smpteSite": 95.96
   },
   {
     "country": "Belize",
@@ -316,7 +316,7 @@
     "m49": "124",
     "region": "North America",
     "siteCount": 699,
-    "smpteSite": 88.98
+    "smpteSite": 89.13
   },
   {
     "country": "Democratic Republic of the Congo",
@@ -348,7 +348,7 @@
     "m49": "756",
     "region": "Europe",
     "siteCount": 355,
-    "smpteSite": 59.72
+    "smpteSite": 63.1
   },
   {
     "country": "Côte d’Ivoire",
@@ -384,7 +384,7 @@
     "m49": "120",
     "region": "Africa",
     "siteCount": 6,
-    "smpteSite": 66.67
+    "smpteSite": 100
   },
   {
     "country": "China",
@@ -474,7 +474,7 @@
     "m49": "276",
     "region": "Europe",
     "siteCount": 1663,
-    "smpteSite": 79.31
+    "smpteSite": 80.1
   },
   {
     "country": "Djibouti",
@@ -632,7 +632,7 @@
     "m49": "250",
     "region": "Europe",
     "siteCount": 2193,
-    "smpteSite": 80.26
+    "smpteSite": 83.04
   },
   {
     "country": "Gabon",
@@ -863,7 +863,7 @@
     "m49": "376",
     "region": "Middle East",
     "siteCount": 97,
-    "smpteSite": 56.7
+    "smpteSite": 57.73
   },
   {
     "country": "Isle of Man",
@@ -1315,7 +1315,7 @@
     "m49": "484",
     "region": "Central America",
     "siteCount": 1012,
-    "smpteSite": 96.84
+    "smpteSite": 97.33
   },
   {
     "country": "Malaysia",
@@ -1462,7 +1462,7 @@
     "m49": "604",
     "region": "South America",
     "siteCount": 115,
-    "smpteSite": 94.78
+    "smpteSite": 95.65
   },
   {
     "country": "French Polynesia",
