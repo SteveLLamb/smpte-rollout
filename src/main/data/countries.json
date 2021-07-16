@@ -93,8 +93,8 @@
     "isoAlpha3": "AUT",
     "m49": "040",
     "region": "Europe",
-    "siteCount": 175,
-    "smpteSite": 83.43
+    "siteCount": 176,
+    "smpteSite": 82.95
   },
   {
     "country": "Australia",
@@ -102,8 +102,8 @@
     "isoAlpha3": "AUS",
     "m49": "036",
     "region": "Australia and New Zealand",
-    "siteCount": 570,
-    "smpteSite": 83.86
+    "siteCount": 571,
+    "smpteSite": 83.71
   },
   {
     "country": "Aruba",
@@ -180,8 +180,8 @@
     "isoAlpha3": "BGR",
     "m49": "100",
     "region": "Europe",
-    "siteCount": 83,
-    "smpteSite": 33.73
+    "siteCount": 86,
+    "smpteSite": 32.56
   },
   {
     "country": "Bahrain",
@@ -315,8 +315,8 @@
     "isoAlpha3": "CAN",
     "m49": "124",
     "region": "North America",
-    "siteCount": 689,
-    "smpteSite": 90.42
+    "siteCount": 690,
+    "smpteSite": 90.43
   },
   {
     "country": "Democratic Republic of the Congo",
@@ -347,8 +347,8 @@
     "isoAlpha3": "CHE",
     "m49": "756",
     "region": "Europe",
-    "siteCount": 355,
-    "smpteSite": 63.1
+    "siteCount": 358,
+    "smpteSite": 62.57
   },
   {
     "country": "Côte d’Ivoire",
@@ -401,8 +401,8 @@
     "isoAlpha3": "COL",
     "m49": "170",
     "region": "South America",
-    "siteCount": 278,
-    "smpteSite": 96.76
+    "siteCount": 280,
+    "smpteSite": 96.79
   },
   {
     "country": "Costa Rica",
@@ -464,8 +464,8 @@
     "isoAlpha3": "CZE",
     "m49": "203",
     "region": "Europe",
-    "siteCount": 320,
-    "smpteSite": 1.56
+    "siteCount": 322,
+    "smpteSite": 1.55
   },
   {
     "country": "Germany",
@@ -473,8 +473,8 @@
     "isoAlpha3": "DEU",
     "m49": "276",
     "region": "Europe",
-    "siteCount": 1663,
-    "smpteSite": 80.1
+    "siteCount": 1674,
+    "smpteSite": 79.87
   },
   {
     "country": "Djibouti",
@@ -491,8 +491,8 @@
     "isoAlpha3": "DNK",
     "m49": "208",
     "region": "Europe",
-    "siteCount": 182,
-    "smpteSite": 86.81
+    "siteCount": 183,
+    "smpteSite": 86.34
   },
   {
     "country": "Dominica",
@@ -527,8 +527,8 @@
     "isoAlpha3": "ECU",
     "m49": "218",
     "region": "South America",
-    "siteCount": 59,
-    "smpteSite": 93.22
+    "siteCount": 60,
+    "smpteSite": 93.33
   },
   {
     "country": "Estonia",
@@ -568,8 +568,8 @@
     "isoAlpha3": "ESP",
     "m49": "724",
     "region": "Europe",
-    "siteCount": 952,
-    "smpteSite": 86.87
+    "siteCount": 962,
+    "smpteSite": 86.07
   },
   {
     "country": "Ethiopia",
@@ -622,8 +622,8 @@
     "isoAlpha3": "FRO",
     "m49": "234",
     "region": "Europe",
-    "siteCount": 3,
-    "smpteSite": 66.67
+    "siteCount": 4,
+    "smpteSite": 50
   },
   {
     "country": "France",
@@ -631,8 +631,8 @@
     "isoAlpha3": "FRA",
     "m49": "250",
     "region": "Europe",
-    "siteCount": 2193,
-    "smpteSite": 83.04
+    "siteCount": 2202,
+    "smpteSite": 82.7
   },
   {
     "country": "Gabon",
@@ -649,7 +649,7 @@
     "isoAlpha3": "GBR",
     "m49": "826",
     "region": "Europe",
-    "siteCount": 1033,
+    "siteCount": 1035,
     "smpteSite": 98
   },
   {
@@ -751,8 +751,8 @@
     "isoAlpha3": "GRC",
     "m49": "300",
     "region": "Europe",
-    "siteCount": 283,
-    "smpteSite": 17.67
+    "siteCount": 288,
+    "smpteSite": 17.36
   },
   {
     "country": "South Georgia and the South Sandwich Islands",
@@ -767,8 +767,8 @@
     "isoAlpha3": "GTM",
     "m49": "320",
     "region": "Central America",
-    "siteCount": 40,
-    "smpteSite": 97.5
+    "siteCount": 41,
+    "smpteSite": 97.56
   },
   {
     "country": "Guam",
@@ -819,8 +819,8 @@
     "isoAlpha3": "HRV",
     "m49": "191",
     "region": "Europe",
-    "siteCount": 117,
-    "smpteSite": 59.83
+    "siteCount": 120,
+    "smpteSite": 58.33
   },
   {
     "country": "Haiti",
@@ -862,8 +862,8 @@
     "isoAlpha3": "ISR",
     "m49": "376",
     "region": "Middle East",
-    "siteCount": 97,
-    "smpteSite": 57.73
+    "siteCount": 98,
+    "smpteSite": 57.14
   },
   {
     "country": "Isle of Man",
@@ -918,7 +918,7 @@
     "isoAlpha3": "ITA",
     "m49": "380",
     "region": "Europe",
-    "siteCount": 1904,
+    "siteCount": 1927,
     "smpteSite": 24
   },
   {
@@ -951,8 +951,8 @@
     "isoAlpha3": "JPN",
     "m49": "392",
     "region": "Asia Pacific",
-    "siteCount": 667,
-    "smpteSite": 3.6
+    "siteCount": 669,
+    "smpteSite": 3.59
   },
   {
     "country": "Kenya",
@@ -1017,8 +1017,8 @@
     "isoAlpha3": "KOR",
     "m49": "410",
     "region": "Asia Pacific",
-    "siteCount": 657,
-    "smpteSite": 91.32
+    "siteCount": 663,
+    "smpteSite": 90.35
   },
   {
     "country": "Kuwait",
@@ -1044,8 +1044,8 @@
     "isoAlpha3": "KAZ",
     "m49": "398",
     "region": "Asia Pacific",
-    "siteCount": 119,
-    "smpteSite": 87.39
+    "siteCount": 121,
+    "smpteSite": 86.78
   },
   {
     "country": "Lao People's Democratic Republic",
@@ -1314,8 +1314,8 @@
     "isoAlpha3": "MEX",
     "m49": "484",
     "region": "Central America",
-    "siteCount": 1011,
-    "smpteSite": 97.43
+    "siteCount": 1015,
+    "smpteSite": 97.24
   },
   {
     "country": "Malaysia",
@@ -1393,8 +1393,8 @@
     "isoAlpha3": "NLD",
     "m49": "528",
     "region": "Europe",
-    "siteCount": 272,
-    "smpteSite": 94.85
+    "siteCount": 273,
+    "smpteSite": 94.51
   },
   {
     "country": "Norway",
@@ -1434,8 +1434,8 @@
     "isoAlpha3": "NZL",
     "m49": "554",
     "region": "Australia and New Zealand",
-    "siteCount": 156,
-    "smpteSite": 85.9
+    "siteCount": 157,
+    "smpteSite": 85.99
   },
   {
     "country": "Oman",
@@ -1506,8 +1506,8 @@
     "isoAlpha3": "POL",
     "m49": "616",
     "region": "Europe",
-    "siteCount": 559,
-    "smpteSite": 86.23
+    "siteCount": 561,
+    "smpteSite": 86.1
   },
   {
     "country": "Saint Pierre and Miquelon",
@@ -1548,8 +1548,8 @@
     "isoAlpha3": "PRT",
     "m49": "620",
     "region": "Europe",
-    "siteCount": 205,
-    "smpteSite": 74.15
+    "siteCount": 207,
+    "smpteSite": 73.43
   },
   {
     "country": "Palau",
@@ -1600,8 +1600,8 @@
     "isoAlpha3": "SRB",
     "m49": "688",
     "region": "Europe",
-    "siteCount": 64,
-    "smpteSite": 64.06
+    "siteCount": 65,
+    "smpteSite": 63.08
   },
   {
     "country": "Russian Federation",
@@ -1609,8 +1609,8 @@
     "isoAlpha3": "RUS",
     "m49": "643",
     "region": "Europe",
-    "siteCount": 2416,
-    "smpteSite": 79.1
+    "siteCount": 2417,
+    "smpteSite": 80.76
   },
   {
     "country": "Rwanda",
@@ -1691,8 +1691,8 @@
     "isoAlpha3": "SVN",
     "m49": "705",
     "region": "Europe",
-    "siteCount": 45,
-    "smpteSite": 48.89
+    "siteCount": 46,
+    "smpteSite": 47.83
   },
   {
     "country": "Svalbard and Jan Mayen Islands",
@@ -1886,8 +1886,8 @@
     "isoAlpha3": "TUR",
     "m49": "792",
     "region": "Middle East",
-    "siteCount": 522,
-    "smpteSite": 3.64
+    "siteCount": 520,
+    "smpteSite": 3.46
   },
   {
     "country": "Trinidad and Tobago",
@@ -1937,8 +1937,8 @@
     "isoAlpha3": "UKR",
     "m49": "804",
     "region": "Europe",
-    "siteCount": 262,
-    "smpteSite": 18.32
+    "siteCount": 263,
+    "smpteSite": 18.25
   },
   {
     "country": "Uganda",
@@ -1962,7 +1962,7 @@
     "isoAlpha3": "USA",
     "m49": "840",
     "region": "North America",
-    "siteCount": 5557,
+    "siteCount": 5545,
     "smpteSite": 98.88
   },
   {
