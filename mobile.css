@@ -14,6 +14,10 @@ a.anchor {
     margin-top: 100px
 }
 
+code {
+  color: #9e0000;
+}
+
 #toTopBtn {
     position: fixed;
     bottom: 26px;

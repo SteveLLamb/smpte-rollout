@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
-    <script type="application/javascript" src="features.js" defer></script>
+    <script src="features.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js"></script>
@@ -27,7 +27,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto d-print-none">
+        <ul class="nav navbar-nav d-print-none ml-auto navbar-right">
           <li class="nav-item">
             <a id="json-feed" target="_blank" class="nav-link" href="https://github.com/SteveLLamb/smpte-rollout"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
@@ -45,7 +45,7 @@
   </svg> Download PDF</a>
           </li>
           <li class="nav-item">
-            <a id="pdf-download" target="_blank" class="nav-link" title="Download as CSV" href="countries.csv"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-table" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <a id="csv-download" target="_blank" class="nav-link" title="Download as CSV" href="countries.csv"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-table" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
   </svg> Download CSV</a>
           </li>
@@ -80,19 +80,19 @@
           <td class="country">
             Andorra
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>020</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AD</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>AND</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -103,19 +103,19 @@
           <td class="country">
             United Arab Emirates
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>784</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ARE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             98
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -126,19 +126,19 @@
           <td class="country">
             Afghanistan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>004</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>AFG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -149,19 +149,19 @@
           <td class="country">
             Antigua and Barbuda
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>028</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ATG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -172,19 +172,19 @@
           <td class="country">
             Anguilla
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>660</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>AIA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-AL">
@@ -194,19 +194,19 @@
           <td class="country">
             Albania
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>008</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ALB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             7
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               57.14%
           </td>
         </tr>
@@ -217,19 +217,19 @@
           <td class="country">
             Armenia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>051</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ARM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             11
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               63.64%
           </td>
         </tr>
@@ -240,19 +240,19 @@
           <td class="country">
             Angola
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>024</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>AGO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             10
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               70%
           </td>
         </tr>
@@ -263,19 +263,19 @@
           <td class="country">
             Argentina
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>032</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ARG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             311
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               92.93%
           </td>
         </tr>
@@ -286,19 +286,19 @@
           <td class="country">
             American Samoa
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>016</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ASM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -309,19 +309,19 @@
           <td class="country">
             Austria
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>040</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>AUT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             176
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               82.95%
           </td>
         </tr>
@@ -332,19 +332,19 @@
           <td class="country">
             Australia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>036</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>AUS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             571
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               83.71%
           </td>
         </tr>
@@ -355,19 +355,19 @@
           <td class="country">
             Aruba
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>533</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ABW</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             7
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -378,19 +378,19 @@
           <td class="country">
             Åland Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>248</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AX</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ALA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-AZ">
@@ -400,19 +400,19 @@
           <td class="country">
             Azerbaijan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>031</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>AZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>AZE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             22
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               40.91%
           </td>
         </tr>
@@ -423,19 +423,19 @@
           <td class="country">
             Bosnia and Herzegovina
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>070</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BIH</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             27
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               62.96%
           </td>
         </tr>
@@ -446,19 +446,19 @@
           <td class="country">
             Barbados
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>052</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BB</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BRB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -469,19 +469,19 @@
           <td class="country">
             Bangladesh
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>050</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BD</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BGD</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-BE">
@@ -491,19 +491,19 @@
           <td class="country">
             Belgium
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>056</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BEL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             163
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               84%
           </td>
         </tr>
@@ -514,19 +514,19 @@
           <td class="country">
             Burkina Faso
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>854</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BFA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               66.67%
           </td>
         </tr>
@@ -537,19 +537,19 @@
           <td class="country">
             Bulgaria
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>100</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BGR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             86
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               32.56%
           </td>
         </tr>
@@ -560,19 +560,19 @@
           <td class="country">
             Bahrain
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>048</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BHR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             18
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               5.56%
           </td>
         </tr>
@@ -583,19 +583,19 @@
           <td class="country">
             Burundi
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>108</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BDI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-BJ">
@@ -605,19 +605,19 @@
           <td class="country">
             Benin
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>204</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BJ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BEN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -628,19 +628,19 @@
           <td class="country">
             Saint Barthélemy
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>652</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BLM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-BM">
@@ -650,19 +650,19 @@
           <td class="country">
             Bermuda
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>060</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BMU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             10
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90%
           </td>
         </tr>
@@ -673,19 +673,19 @@
           <td class="country">
             Brunei Darussalam
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>096</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BRN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             10
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-BO">
@@ -695,19 +695,19 @@
           <td class="country">
             Bolivia (Plurinational State of)
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>068</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BOL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             26
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               96.15%
           </td>
         </tr>
@@ -718,19 +718,19 @@
           <td class="country">
             Bonaire Sint Eustatius and Saba
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>535</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BQ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BES</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -741,19 +741,19 @@
           <td class="country">
             Brazil
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>076</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BRA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             934
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               3.64%
           </td>
         </tr>
@@ -764,19 +764,19 @@
           <td class="country">
             Bahamas
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>044</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BHS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             9
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -787,19 +787,19 @@
           <td class="country">
             Bhutan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>064</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BTN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-BV">
@@ -809,19 +809,19 @@
           <td class="country">
             Bouvet Island
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>074</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BV</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BVT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-BW">
@@ -831,19 +831,19 @@
           <td class="country">
             Botswana
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>072</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BWA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             5
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               60%
           </td>
         </tr>
@@ -854,19 +854,19 @@
           <td class="country">
             Belarus
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>112</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BLR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             99
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               95.96%
           </td>
         </tr>
@@ -877,19 +877,19 @@
           <td class="country">
             Belize
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>084</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>BZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>BLZ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -900,19 +900,19 @@
           <td class="country">
             Canada
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>124</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CAN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             690
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90.43%
           </td>
         </tr>
@@ -923,19 +923,19 @@
           <td class="country">
             Democratic Republic of the Congo
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>180</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CD</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>COD</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             8
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               87.5%
           </td>
         </tr>
@@ -946,19 +946,19 @@
           <td class="country">
             Central African Republic
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>140</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CAF</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-CG">
@@ -968,19 +968,19 @@
           <td class="country">
             Congo
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>178</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>COG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-CH">
@@ -990,19 +990,19 @@
           <td class="country">
             Switzerland
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>756</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CHE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             358
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               62.57%
           </td>
         </tr>
@@ -1013,19 +1013,19 @@
           <td class="country">
             Côte d’Ivoire
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>384</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CIV</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               66.67%
           </td>
         </tr>
@@ -1036,19 +1036,19 @@
           <td class="country">
             Cook Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>184</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>COK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1059,19 +1059,19 @@
           <td class="country">
             Chile
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>152</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CHL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             109
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               94.5%
           </td>
         </tr>
@@ -1082,19 +1082,19 @@
           <td class="country">
             Cameroon
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>120</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CMR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1105,19 +1105,19 @@
           <td class="country">
             China
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>156</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CHN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             10453
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               0.11%
           </td>
         </tr>
@@ -1128,19 +1128,19 @@
           <td class="country">
             Colombia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>170</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>COL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             280
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               96.79%
           </td>
         </tr>
@@ -1151,19 +1151,19 @@
           <td class="country">
             Costa Rica
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>188</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CRI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             35
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               94.29%
           </td>
         </tr>
@@ -1174,19 +1174,19 @@
           <td class="country">
             Cuba
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>192</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CUB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               16.67%
           </td>
         </tr>
@@ -1197,19 +1197,19 @@
           <td class="country">
             Cabo Verde
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>132</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CV</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CPV</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1220,19 +1220,19 @@
           <td class="country">
             Curaçao
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>531</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CUW</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1243,19 +1243,19 @@
           <td class="country">
             Christmas Island
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>162</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CX</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CXR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1266,19 +1266,19 @@
           <td class="country">
             Cyprus
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>196</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CYP</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             20
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               55%
           </td>
         </tr>
@@ -1289,19 +1289,19 @@
           <td class="country">
             Czech Republic
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>203</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>CZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CZE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             322
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               1.55%
           </td>
         </tr>
@@ -1312,19 +1312,19 @@
           <td class="country">
             Germany
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>276</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>DE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>DEU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1674
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               79.87%
           </td>
         </tr>
@@ -1335,19 +1335,19 @@
           <td class="country">
             Djibouti
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>262</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>DJ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>DJI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1358,19 +1358,19 @@
           <td class="country">
             Denmark
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>208</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>DK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>DNK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             183
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               86.34%
           </td>
         </tr>
@@ -1381,19 +1381,19 @@
           <td class="country">
             Dominica
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>212</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>DM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>DMA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1404,19 +1404,19 @@
           <td class="country">
             Dominican Republic
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>214</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>DO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>DOM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             32
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               96.88%
           </td>
         </tr>
@@ -1427,19 +1427,19 @@
           <td class="country">
             Algeria
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>012</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>DZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>DZA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             14
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               64.29%
           </td>
         </tr>
@@ -1450,19 +1450,19 @@
           <td class="country">
             Ecuador
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>218</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>EC</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ECU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             60
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               93.33%
           </td>
         </tr>
@@ -1473,19 +1473,19 @@
           <td class="country">
             Estonia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>233</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>EE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>EST</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             48
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               85.42%
           </td>
         </tr>
@@ -1496,19 +1496,19 @@
           <td class="country">
             Egypt
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>818</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>EG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>EGY</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             66
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               6.06%
           </td>
         </tr>
@@ -1519,19 +1519,19 @@
           <td class="country">
             Western Sahara
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>732</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>EH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ESH</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-ER">
@@ -1541,19 +1541,19 @@
           <td class="country">
             Eritrea
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>232</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ER</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ERI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-ES">
@@ -1563,19 +1563,19 @@
           <td class="country">
             Spain
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>724</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ES</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ESP</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             962
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               86.07%
           </td>
         </tr>
@@ -1586,19 +1586,19 @@
           <td class="country">
             Ethiopia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>231</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ET</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ETH</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             5
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               60%
           </td>
         </tr>
@@ -1609,19 +1609,19 @@
           <td class="country">
             Finland
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>246</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>FI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>FIN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             194
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               89.69%
           </td>
         </tr>
@@ -1632,19 +1632,19 @@
           <td class="country">
             Fiji
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>242</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>FJ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>FJI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             7
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1655,19 +1655,19 @@
           <td class="country">
             Falkland Islands (Malvinas)
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>238</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>FK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>FLK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1678,19 +1678,19 @@
           <td class="country">
             Micronesia (Federated States of)
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>583</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>FM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>FSM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1701,19 +1701,19 @@
           <td class="country">
             Faroe Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>234</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>FO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>FRO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -1724,19 +1724,19 @@
           <td class="country">
             France
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>250</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>FR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>FRA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2202
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               82.7%
           </td>
         </tr>
@@ -1747,19 +1747,19 @@
           <td class="country">
             Gabon
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>266</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GAB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1770,19 +1770,19 @@
           <td class="country">
             United Kingdom of Great Britain and Northern Ireland
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>826</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GB</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GBR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1035
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               98%
           </td>
         </tr>
@@ -1793,19 +1793,19 @@
           <td class="country">
             Grenada
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>308</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GD</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GRD</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1816,19 +1816,19 @@
           <td class="country">
             Georgia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>268</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GEO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             11
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               63.64%
           </td>
         </tr>
@@ -1839,19 +1839,19 @@
           <td class="country">
             French Guiana
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>254</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GUF</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -1862,19 +1862,19 @@
           <td class="country">
             Guernsey
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>831</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GGY</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-GH">
@@ -1884,19 +1884,19 @@
           <td class="country">
             Ghana
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>288</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GHA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             5
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-GI">
@@ -1906,19 +1906,19 @@
           <td class="country">
             Gibraltar
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>292</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GIB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1929,19 +1929,19 @@
           <td class="country">
             Greenland
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>304</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GRL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1952,19 +1952,19 @@
           <td class="country">
             Gambia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>270</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GMB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-GN">
@@ -1974,19 +1974,19 @@
           <td class="country">
             Guinea
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>324</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GIN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -1997,19 +1997,19 @@
           <td class="country">
             Guadeloupe
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>312</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GP</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GLP</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             8
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               62.5%
           </td>
         </tr>
@@ -2020,19 +2020,19 @@
           <td class="country">
             Equatorial Guinea
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>226</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GQ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GNQ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-GR">
@@ -2042,19 +2042,19 @@
           <td class="country">
             Greece
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>300</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GRC</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             288
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               17.36%
           </td>
         </tr>
@@ -2065,19 +2065,19 @@
           <td class="country">
             South Georgia and the South Sandwich Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>239</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SGS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-GT">
@@ -2087,19 +2087,19 @@
           <td class="country">
             Guatemala
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>320</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GTM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             41
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               97.56%
           </td>
         </tr>
@@ -2110,19 +2110,19 @@
           <td class="country">
             Guam
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>316</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GUM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2133,19 +2133,19 @@
           <td class="country">
             Guinea-Bissau
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>624</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GNB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-GY">
@@ -2155,19 +2155,19 @@
           <td class="country">
             Guyana
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>328</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>GY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>GUY</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             5
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               60%
           </td>
         </tr>
@@ -2178,19 +2178,19 @@
           <td class="country">
             China Hong Kong Special Administrative Region
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>344</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>HK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>HKG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             81
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               40.74%
           </td>
         </tr>
@@ -2201,19 +2201,19 @@
           <td class="country">
             Honduras
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>340</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>HN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>HND</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             27
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2224,19 +2224,19 @@
           <td class="country">
             Croatia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>191</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>HR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>HRV</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             120
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               58.33%
           </td>
         </tr>
@@ -2247,19 +2247,19 @@
           <td class="country">
             Haiti
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>332</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>HT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>HTI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-HU">
@@ -2269,19 +2269,19 @@
           <td class="country">
             Hungary
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>348</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>HU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>HUN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             132
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               1.52%
           </td>
         </tr>
@@ -2292,19 +2292,19 @@
           <td class="country">
             Indonesia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>360</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ID</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>IDN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             429
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               92.77%
           </td>
         </tr>
@@ -2315,19 +2315,19 @@
           <td class="country">
             Ireland
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>372</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>IRL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             103
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               98%
           </td>
         </tr>
@@ -2338,19 +2338,19 @@
           <td class="country">
             Israel
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>376</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ISR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             98
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               57.14%
           </td>
         </tr>
@@ -2361,19 +2361,19 @@
           <td class="country">
             Isle of Man
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>833</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>IMN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-IN">
@@ -2383,19 +2383,19 @@
           <td class="country">
             India
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>356</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>IND</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2786
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               15.37%
           </td>
         </tr>
@@ -2406,19 +2406,19 @@
           <td class="country">
             British Indian Ocean Territory
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>086</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>IOT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-IQ">
@@ -2428,19 +2428,19 @@
           <td class="country">
             Iraq
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>368</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IQ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>IRQ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             13
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-IR">
@@ -2450,19 +2450,19 @@
           <td class="country">
             Iran (Islamic Republic of)
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>364</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>IRN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-IS">
@@ -2472,19 +2472,19 @@
           <td class="country">
             Iceland
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>352</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ISL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             17
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2495,19 +2495,19 @@
           <td class="country">
             Italy
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>380</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>IT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ITA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1927
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               24%
           </td>
         </tr>
@@ -2518,19 +2518,19 @@
           <td class="country">
             Jersey
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>832</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>JE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>JEY</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-JM">
@@ -2540,19 +2540,19 @@
           <td class="country">
             Jamaica
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>388</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>JM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>JAM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2563,19 +2563,19 @@
           <td class="country">
             Jordan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>400</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>JO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>JOR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             10
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-JP">
@@ -2585,19 +2585,19 @@
           <td class="country">
             Japan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>392</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>JP</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>JPN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             669
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               3.59%
           </td>
         </tr>
@@ -2608,19 +2608,19 @@
           <td class="country">
             Kenya
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>404</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KEN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             14
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               85.71%
           </td>
         </tr>
@@ -2631,19 +2631,19 @@
           <td class="country">
             Kyrgyzstan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>417</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KGZ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             12
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               91.67%
           </td>
         </tr>
@@ -2654,19 +2654,19 @@
           <td class="country">
             Cambodia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>116</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KHM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             23
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               69.57%
           </td>
         </tr>
@@ -2677,19 +2677,19 @@
           <td class="country">
             Kiribati
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>296</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KIR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-KM">
@@ -2699,19 +2699,19 @@
           <td class="country">
             Comoros
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>174</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>COM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-KN">
@@ -2721,19 +2721,19 @@
           <td class="country">
             Saint Kitts and Nevis
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>659</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KNA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2744,19 +2744,19 @@
           <td class="country">
             Democratic People&#x27;s Republic of Korea
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>408</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KP</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PRK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-KR">
@@ -2766,19 +2766,19 @@
           <td class="country">
             Republic of Korea
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>410</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KOR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             663
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90.35%
           </td>
         </tr>
@@ -2789,19 +2789,19 @@
           <td class="country">
             Kuwait
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>414</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KWT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             25
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               65%
           </td>
         </tr>
@@ -2812,19 +2812,19 @@
           <td class="country">
             Cayman Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>136</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>CYM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2835,19 +2835,19 @@
           <td class="country">
             Kazakhstan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>398</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>KZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>KAZ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             121
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               86.78%
           </td>
         </tr>
@@ -2858,19 +2858,19 @@
           <td class="country">
             Lao People&#x27;s Democratic Republic
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>418</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LAO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-LB">
@@ -2880,19 +2880,19 @@
           <td class="country">
             Lebanon
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>422</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LB</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LBN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             28
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-LC">
@@ -2902,19 +2902,19 @@
           <td class="country">
             Saint Lucia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>662</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LC</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LCA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2925,19 +2925,19 @@
           <td class="country">
             Liechtenstein
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>438</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LIE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-LK">
@@ -2947,19 +2947,19 @@
           <td class="country">
             Sri Lanka
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>144</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LKA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             66
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               25.76%
           </td>
         </tr>
@@ -2970,19 +2970,19 @@
           <td class="country">
             Liberia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>430</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LBR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -2993,19 +2993,19 @@
           <td class="country">
             Lesotho
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>426</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LSO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-LT">
@@ -3015,19 +3015,19 @@
           <td class="country">
             Lithuania
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>440</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LTU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             20
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3038,19 +3038,19 @@
           <td class="country">
             Luxembourg
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>442</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LUX</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             19
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               98%
           </td>
         </tr>
@@ -3061,19 +3061,19 @@
           <td class="country">
             Latvia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>428</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LV</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LVA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             23
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3084,19 +3084,19 @@
           <td class="country">
             Libya
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>434</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>LY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>LBY</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-MA">
@@ -3106,19 +3106,19 @@
           <td class="country">
             Morocco
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>504</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MAR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             32
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -3129,19 +3129,19 @@
           <td class="country">
             Monaco
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>492</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MC</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MCO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               25%
           </td>
         </tr>
@@ -3152,19 +3152,19 @@
           <td class="country">
             Republic of Moldova
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>498</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MD</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MDA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             5
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               80%
           </td>
         </tr>
@@ -3175,19 +3175,19 @@
           <td class="country">
             Montenegro
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>499</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ME</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MNE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -3198,19 +3198,19 @@
           <td class="country">
             Saint Martin (French Part)
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>663</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MAF</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3221,19 +3221,19 @@
           <td class="country">
             Madagascar
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>450</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MDG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               75%
           </td>
         </tr>
@@ -3244,19 +3244,19 @@
           <td class="country">
             Marshall Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>584</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MHL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-MK">
@@ -3266,19 +3266,19 @@
           <td class="country">
             The former Yugoslav Republic of Macedonia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>807</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MKD</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             7
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               71.43%
           </td>
         </tr>
@@ -3289,19 +3289,19 @@
           <td class="country">
             Mali
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>466</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ML</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MLI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3312,19 +3312,19 @@
           <td class="country">
             Myanmar
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>104</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MMR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             88
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               9.09%
           </td>
         </tr>
@@ -3335,19 +3335,19 @@
           <td class="country">
             Mongolia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>496</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MNG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             14
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-MO">
@@ -3357,19 +3357,19 @@
           <td class="country">
             China Macao Special Administrative Region
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>446</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MAC</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             7
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               28.57%
           </td>
         </tr>
@@ -3380,19 +3380,19 @@
           <td class="country">
             Northern Mariana Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>580</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MP</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MNP</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3403,19 +3403,19 @@
           <td class="country">
             Martinique
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>474</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MQ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MTQ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3426,19 +3426,19 @@
           <td class="country">
             Mauritania
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>478</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MRT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-MS">
@@ -3448,19 +3448,19 @@
           <td class="country">
             Montserrat
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>500</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MSR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-MT">
@@ -3470,19 +3470,19 @@
           <td class="country">
             Malta
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>470</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MLT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             8
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3493,19 +3493,19 @@
           <td class="country">
             Mauritius
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>480</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MUS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             13
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               53.85%
           </td>
         </tr>
@@ -3516,19 +3516,19 @@
           <td class="country">
             Maldives
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>462</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MV</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MDV</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-MW">
@@ -3538,19 +3538,19 @@
           <td class="country">
             Malawi
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>454</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MWI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-MX">
@@ -3560,19 +3560,19 @@
           <td class="country">
             Mexico
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>484</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MX</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MEX</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1015
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               97.24%
           </td>
         </tr>
@@ -3583,19 +3583,19 @@
           <td class="country">
             Malaysia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>458</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MYS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             177
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               18.08%
           </td>
         </tr>
@@ -3606,19 +3606,19 @@
           <td class="country">
             Mozambique
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>508</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>MZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MOZ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -3629,19 +3629,19 @@
           <td class="country">
             Namibia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>516</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NAM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3652,19 +3652,19 @@
           <td class="country">
             New Caledonia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>540</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NC</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NCL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3675,19 +3675,19 @@
           <td class="country">
             Niger
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>562</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NER</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -3698,19 +3698,19 @@
           <td class="country">
             Norfolk Island
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>574</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NFK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-NG">
@@ -3720,19 +3720,19 @@
           <td class="country">
             Nigeria
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>566</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NGA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             71
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               81.69%
           </td>
         </tr>
@@ -3743,19 +3743,19 @@
           <td class="country">
             Nicaragua
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>558</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NIC</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             11
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90.91%
           </td>
         </tr>
@@ -3766,19 +3766,19 @@
           <td class="country">
             Netherlands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>528</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NLD</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             273
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               94.51%
           </td>
         </tr>
@@ -3789,19 +3789,19 @@
           <td class="country">
             Norway
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>578</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NOR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             252
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               96.83%
           </td>
         </tr>
@@ -3812,19 +3812,19 @@
           <td class="country">
             Nepal
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>524</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NP</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NPL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             46
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               2.17%
           </td>
         </tr>
@@ -3835,19 +3835,19 @@
           <td class="country">
             Nauru
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>520</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NRU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-NU">
@@ -3857,19 +3857,19 @@
           <td class="country">
             Niue
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>570</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NIU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-NZ">
@@ -3879,19 +3879,19 @@
           <td class="country">
             New Zealand
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>554</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>NZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>NZL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             157
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               85.99%
           </td>
         </tr>
@@ -3902,19 +3902,19 @@
           <td class="country">
             Oman
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>512</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>OM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>OMN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             25
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               8%
           </td>
         </tr>
@@ -3925,19 +3925,19 @@
           <td class="country">
             Panama
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>591</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PAN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             33
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               87.88%
           </td>
         </tr>
@@ -3948,19 +3948,19 @@
           <td class="country">
             Peru
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>604</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PER</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             115
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               95.65%
           </td>
         </tr>
@@ -3971,19 +3971,19 @@
           <td class="country">
             French Polynesia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>258</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PYF</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               33.33%
           </td>
         </tr>
@@ -3994,19 +3994,19 @@
           <td class="country">
             Papua New Guinea
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>598</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PNG</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -4017,19 +4017,19 @@
           <td class="country">
             Philippines
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>608</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PHL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             250
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               2.4%
           </td>
         </tr>
@@ -4040,19 +4040,19 @@
           <td class="country">
             Pakistan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>586</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PAK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             75
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               77.33%
           </td>
         </tr>
@@ -4063,19 +4063,19 @@
           <td class="country">
             Poland
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>616</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>POL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             561
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               86.1%
           </td>
         </tr>
@@ -4086,19 +4086,19 @@
           <td class="country">
             Saint Pierre and Miquelon
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>666</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SPM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -4109,19 +4109,19 @@
           <td class="country">
             Pitcairn
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>612</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PCN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-PR">
@@ -4131,19 +4131,19 @@
           <td class="country">
             Puerto Rico
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>630</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PRI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             39
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               94.87%
           </td>
         </tr>
@@ -4154,19 +4154,19 @@
           <td class="country">
             State of Palestine
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>275</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PSE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-PT">
@@ -4176,19 +4176,19 @@
           <td class="country">
             Portugal
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>620</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PRT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             207
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               73.43%
           </td>
         </tr>
@@ -4199,19 +4199,19 @@
           <td class="country">
             Palau
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>585</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PLW</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-PY">
@@ -4221,19 +4221,19 @@
           <td class="country">
             Paraguay
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>600</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>PY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>PRY</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             20
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90%
           </td>
         </tr>
@@ -4244,19 +4244,19 @@
           <td class="country">
             Qatar
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>634</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>QA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>QAT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             24
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               95%
           </td>
         </tr>
@@ -4267,19 +4267,19 @@
           <td class="country">
             Réunion
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>638</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>RE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>REU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             16
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               81.25%
           </td>
         </tr>
@@ -4290,19 +4290,19 @@
           <td class="country">
             Romania
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>642</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>RO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ROU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             116
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               5.17%
           </td>
         </tr>
@@ -4313,19 +4313,19 @@
           <td class="country">
             Serbia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>688</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>RS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SRB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             65
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               63.08%
           </td>
         </tr>
@@ -4336,19 +4336,19 @@
           <td class="country">
             Russian Federation
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>643</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>RU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>RUS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2417
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               80.76%
           </td>
         </tr>
@@ -4359,19 +4359,19 @@
           <td class="country">
             Rwanda
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>646</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>RW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>RWA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -4382,19 +4382,19 @@
           <td class="country">
             Saudi Arabia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>682</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SAU</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             57
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -4405,19 +4405,19 @@
           <td class="country">
             Sark
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>680</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SARK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code></code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SB">
@@ -4427,19 +4427,19 @@
           <td class="country">
             Solomon Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>090</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SB</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SLB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SC">
@@ -4449,19 +4449,19 @@
           <td class="country">
             Seychelles
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>690</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SC</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SYC</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -4472,19 +4472,19 @@
           <td class="country">
             Sudan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>729</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SD</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SDN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SE">
@@ -4494,19 +4494,19 @@
           <td class="country">
             Sweden
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>752</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SWE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             453
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               86.53%
           </td>
         </tr>
@@ -4517,19 +4517,19 @@
           <td class="country">
             Singapore
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>702</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SGP</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             59
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               83.05%
           </td>
         </tr>
@@ -4540,19 +4540,19 @@
           <td class="country">
             Saint Helena
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>654</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SHN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SI">
@@ -4562,19 +4562,19 @@
           <td class="country">
             Slovenia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>705</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SVN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             46
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               47.83%
           </td>
         </tr>
@@ -4585,19 +4585,19 @@
           <td class="country">
             Svalbard and Jan Mayen Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>744</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SJ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SJM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SK">
@@ -4607,19 +4607,19 @@
           <td class="country">
             Slovakia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>703</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SVK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             109
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               1.83%
           </td>
         </tr>
@@ -4630,19 +4630,19 @@
           <td class="country">
             Sierra Leone
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>694</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SLE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SM">
@@ -4652,19 +4652,19 @@
           <td class="country">
             San Marino
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>674</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SMR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SN">
@@ -4674,19 +4674,19 @@
           <td class="country">
             Senegal
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>686</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SEN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             6
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               33.33%
           </td>
         </tr>
@@ -4697,19 +4697,19 @@
           <td class="country">
             Somalia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>706</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SOM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SR">
@@ -4719,19 +4719,19 @@
           <td class="country">
             Suriname
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>740</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SUR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -4742,19 +4742,19 @@
           <td class="country">
             South Sudan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>728</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SSD</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-ST">
@@ -4764,19 +4764,19 @@
           <td class="country">
             Sao Tome and Principe
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>678</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ST</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>STP</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-SV">
@@ -4786,19 +4786,19 @@
           <td class="country">
             El Salvador
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>222</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SV</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SLV</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             9
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               88.89%
           </td>
         </tr>
@@ -4809,19 +4809,19 @@
           <td class="country">
             Sint Maarten (Dutch part)
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>534</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SX</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SXM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -4832,19 +4832,19 @@
           <td class="country">
             Syrian Arab Republic
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>760</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SYR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -4855,19 +4855,19 @@
           <td class="country">
             Eswatini
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>748</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>SZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>SWZ</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -4878,19 +4878,19 @@
           <td class="country">
             Turks and Caicos Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>796</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TC</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TCA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-TD">
@@ -4900,19 +4900,19 @@
           <td class="country">
             Chad
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>148</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TD</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TCD</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-TF">
@@ -4922,19 +4922,19 @@
           <td class="country">
             French Southern Territories
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>260</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ATF</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-TG">
@@ -4944,19 +4944,19 @@
           <td class="country">
             Togo
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>768</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TGO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -4967,19 +4967,19 @@
           <td class="country">
             Thailand
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>764</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TH</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>THA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             273
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               1.47%
           </td>
         </tr>
@@ -4990,19 +4990,19 @@
           <td class="country">
             Tajikistan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>762</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TJ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TJK</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               66.67%
           </td>
         </tr>
@@ -5013,19 +5013,19 @@
           <td class="country">
             Tokelau
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>772</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TKL</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-TL">
@@ -5035,19 +5035,19 @@
           <td class="country">
             Timor-Leste
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>626</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TL</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TLS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-TM">
@@ -5057,19 +5057,19 @@
           <td class="country">
             Turkmenistan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>795</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TKM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -5080,19 +5080,19 @@
           <td class="country">
             Tonga
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>776</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TO</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TON</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-TR">
@@ -5102,19 +5102,19 @@
           <td class="country">
             Turkey
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>792</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TR</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TUR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             520
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               3.46%
           </td>
         </tr>
@@ -5125,19 +5125,19 @@
           <td class="country">
             Trinidad and Tobago
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>780</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TTO</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             12
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               83.33%
           </td>
         </tr>
@@ -5148,19 +5148,19 @@
           <td class="country">
             Tunisia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>788</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TUN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             29
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               51.72%
           </td>
         </tr>
@@ -5171,19 +5171,19 @@
           <td class="country">
             Tuvalu
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>798</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TV</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TUV</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-TW">
@@ -5193,19 +5193,19 @@
           <td class="country">
             Taiwan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code></code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TWN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             150
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               24%
           </td>
         </tr>
@@ -5216,19 +5216,19 @@
           <td class="country">
             Tanzania
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>834</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>TZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>TZA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             11
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90.91%
           </td>
         </tr>
@@ -5239,19 +5239,19 @@
           <td class="country">
             Ukraine
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>804</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>UA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>UKR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             263
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               18.25%
           </td>
         </tr>
@@ -5262,19 +5262,19 @@
           <td class="country">
             Uganda
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>800</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>UG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>UGA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             7
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               57.14%
           </td>
         </tr>
@@ -5285,19 +5285,19 @@
           <td class="country">
             United States Minor Outlying Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>581</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>UM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>UMI</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-US">
@@ -5307,19 +5307,19 @@
           <td class="country">
             United States of America
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>840</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>US</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>USA</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             5545
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               98.88%
           </td>
         </tr>
@@ -5330,19 +5330,19 @@
           <td class="country">
             Uruguay
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>858</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>UY</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>URY</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             42
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               92.86%
           </td>
         </tr>
@@ -5353,19 +5353,19 @@
           <td class="country">
             Uzbekistan
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>860</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>UZ</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>UZB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             20
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90%
           </td>
         </tr>
@@ -5376,19 +5376,19 @@
           <td class="country">
             Holy See
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>336</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>VA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>VAT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-VC">
@@ -5398,19 +5398,19 @@
           <td class="country">
             Saint Vincent and the Grenadines
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>670</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>VC</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>VCT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -5421,19 +5421,19 @@
           <td class="country">
             Venezuela (Bolivarian Republic of)
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>862</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>VE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>VEN</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             80
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               90%
           </td>
         </tr>
@@ -5444,19 +5444,19 @@
           <td class="country">
             British Virgin Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>092</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>VG</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>VGB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -5467,19 +5467,19 @@
           <td class="country">
             United States Virgin Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>850</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>VI</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>VIR</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -5490,19 +5490,19 @@
           <td class="country">
             Viet Nam
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>704</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>VN</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>VNM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             234
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               79.06%
           </td>
         </tr>
@@ -5513,19 +5513,19 @@
           <td class="country">
             Vanuatu
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>548</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>VU</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>VUT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -5536,19 +5536,19 @@
           <td class="country">
             Wallis and Futuna Islands
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>876</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>WF</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>WLF</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-WS">
@@ -5558,19 +5558,19 @@
           <td class="country">
             Samoa
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>882</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>WS</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>WSM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             1
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -5581,19 +5581,19 @@
           <td class="country">
             Kosovo
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code></code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>XK</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>RKS</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             4
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -5604,19 +5604,19 @@
           <td class="country">
             Yemen
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>887</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>YE</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>YEM</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
           </td>
         </tr>
         <tr id="country-YT">
@@ -5626,19 +5626,19 @@
           <td class="country">
             Mayotte
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>175</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>YT</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>MYT</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             2
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               50%
           </td>
         </tr>
@@ -5649,19 +5649,19 @@
           <td class="country">
             South Africa
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>710</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ZA</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ZAF</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             105
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               87.62%
           </td>
         </tr>
@@ -5672,19 +5672,19 @@
           <td class="country">
             Zambia
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>894</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ZM</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ZMB</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             7
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               85.71%
           </td>
         </tr>
@@ -5695,19 +5695,19 @@
           <td class="country">
             Zimbabwe
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>716</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>ZW</code>
           </td>
-          <td class="isoAlpha3" align="center">
+          <td class="isoAlpha3 text-center">
             <code>ZWE</code>
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             3
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
               100%
           </td>
         </tr>
@@ -5718,8 +5718,8 @@
     <div class="row d-flex align-items-center text-center p-3 border-top">
       <div class="col text-center">
         <small class="text-muted">
-          Site version: <code>7ec965eac1c980c3a7e866d0337535f8247fd9c4</code>
-          <p class="text-center">Generated on Fri Jul 16 2021 22:59:55 GMT+0000 (Coordinated Universal Time)
+          Site version: <code>e67bbcee51460a08ac904940fafc59b13320660a</code>
+          <br>Generated on <code>Tue Aug 03 2021 22:22:21 GMT+0000 (Coordinated Universal Time)</code>
         </small>
       </div>
     </div>
