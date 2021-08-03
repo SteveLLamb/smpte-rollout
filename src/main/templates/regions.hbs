@@ -17,23 +17,23 @@
       </thead>
       <tbody id="searchTable">
         {{#data}}
-        <tr id="{{../idType}}-{{isoAlpha2}}">
+        <tr id="{{../idType}}-{{m49}}">
           <td class="region">
             {{region}}
           </td>
-          <td class="m49" align="center">
+          <td class="m49 text-center">
             <code>{{m49}}</code>
           </td>
-          <td class="isoAlpha2" align="center">
+          <td class="isoAlpha2 text-center">
             <code>{{isoAlpha2}}</code>
           </td>
-          <td class="countryCount" align="center">
+          <td class="countryCount text-center">
             {{countryCount}}
           </td>
-          <td class="siteCount" align="center">
+          <td class="siteCount text-center">
             {{siteCount}}
           </td>
-          <td class="smpteSite" align="center">
+          <td class="smpteSite text-center">
             {{#if smpteSite}}
               {{smpteSite}}%
             {{/if}}
