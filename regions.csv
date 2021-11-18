@@ -1,13 +1,13 @@
 isoAlpha2,m49,region,countryCount,siteCount,smpteSite
-AF,002,Africa,60,477,68.66
-AS,142,Asia Pacific,34,16725,41.89
-OC,053,Australia and New Zealand,3,728,84.85
-NA,029,Caribbean,29,151,97.58
-NA,013,Central America,8,1172,94.6
-EU,150,Europe,53,14989,64.47
+AF,002,Africa,60,479,70.39
+AS,142,Asia Pacific,34,16777,42.33
+OC,053,Australia and New Zealand,3,728,87.44
+NA,029,Caribbean,29,152,97.58
+NA,013,Central America,8,1174,96.38
+EU,150,Europe,53,15094,64.04
 OC,054,Melanasia,5,13,87.5
 OC,057,Micronesia,8,6,100
-AS,145,Middle East,18,984,44.55
-NA,019,North America,4,6239,97.33
-OC,061,Polynesia,10,9,83.33
-SA,005,South America,16,1990,78.99
+AS,145,Middle East,18,988,56.35
+NA,019,North America,4,6229,100
+OC,061,Polynesia,10,9,95.83
+SA,005,South America,16,1998,79.2
