@@ -19,7 +19,7 @@
     "puppeteer": "^2.1.1"
   },
   "dependencies": {
-    "@amcharts/amcharts4": "^4.9.34",
+    "@amcharts/amcharts4": "^4.10.28",
     "@amcharts/amcharts4-geodata": "^4.1.16",
     "json-stable-stringify": "^1.0.1",
     "xlsx": "^0.17.0"
