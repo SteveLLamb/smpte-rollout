@@ -14,8 +14,8 @@
     "isoAlpha3": "ARE",
     "m49": "784",
     "region": "Middle East",
-    "siteCount": 106,
-    "smpteSite": 92.45
+    "siteCount": 111,
+    "smpteSite": 94.45
   },
   {
     "country": "Afghanistan",
@@ -32,7 +32,7 @@
     "isoAlpha3": "ATG",
     "m49": "028",
     "region": "Caribbean",
-    "siteCount": 2,
+    "siteCount": 1,
     "smpteSite": 100
   },
   {
@@ -49,7 +49,7 @@
     "m49": "008",
     "region": "Europe",
     "siteCount": 9,
-    "smpteSite": 44.44
+    "smpteSite": 66.67
   },
   {
     "country": "Armenia",
@@ -57,8 +57,8 @@
     "isoAlpha3": "ARM",
     "m49": "051",
     "region": "Middle East",
-    "siteCount": 11,
-    "smpteSite": 72.73
+    "siteCount": 12,
+    "smpteSite": 100
   },
   {
     "country": "Angola",
@@ -66,8 +66,8 @@
     "isoAlpha3": "AGO",
     "m49": "024",
     "region": "Africa",
-    "siteCount": 10,
-    "smpteSite": 70
+    "siteCount": 11,
+    "smpteSite": 63.64
   },
   {
     "country": "Argentina",
@@ -75,8 +75,8 @@
     "isoAlpha3": "ARG",
     "m49": "032",
     "region": "South America",
-    "siteCount": 322,
-    "smpteSite": 93.17
+    "siteCount": 323,
+    "smpteSite": 94.74
   },
   {
     "country": "American Samoa",
@@ -93,8 +93,8 @@
     "isoAlpha3": "AUT",
     "m49": "040",
     "region": "Europe",
-    "siteCount": 180,
-    "smpteSite": 84.44
+    "siteCount": 179,
+    "smpteSite": 90.5
   },
   {
     "country": "Australia",
@@ -102,8 +102,8 @@
     "isoAlpha3": "AUS",
     "m49": "036",
     "region": "Australia and New Zealand",
-    "siteCount": 579,
-    "smpteSite": 87.91
+    "siteCount": 577,
+    "smpteSite": 89.95
   },
   {
     "country": "Aruba",
@@ -128,7 +128,7 @@
     "m49": "031",
     "region": "Middle East",
     "siteCount": 24,
-    "smpteSite": 66.67
+    "smpteSite": 75
   },
   {
     "country": "Bosnia and Herzegovina",
@@ -137,7 +137,7 @@
     "m49": "070",
     "region": "Europe",
     "siteCount": 31,
-    "smpteSite": 54.84
+    "smpteSite": 87.1
   },
   {
     "country": "Barbados",
@@ -154,8 +154,8 @@
     "isoAlpha3": "BGD",
     "m49": "050",
     "region": "Asia Pacific",
-    "siteCount": 8,
-    "smpteSite": 12.5
+    "siteCount": 10,
+    "smpteSite": 80
   },
   {
     "country": "Belgium",
@@ -163,8 +163,8 @@
     "isoAlpha3": "BEL",
     "m49": "056",
     "region": "Europe",
-    "siteCount": 169,
-    "smpteSite": 84
+    "siteCount": 170,
+    "smpteSite": 81.18
   },
   {
     "country": "Burkina Faso",
@@ -181,8 +181,8 @@
     "isoAlpha3": "BGR",
     "m49": "100",
     "region": "Europe",
-    "siteCount": 94,
-    "smpteSite": 30.85
+    "siteCount": 95,
+    "smpteSite": 76.84
   },
   {
     "country": "Bahrain",
@@ -190,8 +190,8 @@
     "isoAlpha3": "BHR",
     "m49": "048",
     "region": "Middle East",
-    "siteCount": 19,
-    "smpteSite": 42.11
+    "siteCount": 21,
+    "smpteSite": 57.14
   },
   {
     "country": "Burundi",
@@ -231,7 +231,8 @@
     "isoAlpha3": "BRN",
     "m49": "096",
     "region": "Asia Pacific",
-    "siteCount": 10
+    "siteCount": 10,
+    "smpteSite": 70
   },
   {
     "country": "Bolivia (Plurinational State of)",
@@ -257,8 +258,8 @@
     "isoAlpha3": "BRA",
     "m49": "076",
     "region": "South America",
-    "siteCount": 964,
-    "smpteSite": 39.32
+    "siteCount": 980,
+    "smpteSite": 46.33
   },
   {
     "country": "Bahamas",
@@ -298,8 +299,8 @@
     "isoAlpha3": "BLR",
     "m49": "112",
     "region": "Europe",
-    "siteCount": 103,
-    "smpteSite": 94.17
+    "siteCount": 105,
+    "smpteSite": 92.38
   },
   {
     "country": "Belize",
@@ -316,8 +317,8 @@
     "isoAlpha3": "CAN",
     "m49": "124",
     "region": "North America",
-    "siteCount": 682,
-    "smpteSite": 100
+    "siteCount": 683,
+    "smpteSite": 93.7
   },
   {
     "country": "Democratic Republic of the Congo",
@@ -350,8 +351,8 @@
     "isoAlpha3": "CHE",
     "m49": "756",
     "region": "Europe",
-    "siteCount": 362,
-    "smpteSite": 70.44
+    "siteCount": 354,
+    "smpteSite": 76.84
   },
   {
     "country": "Côte d’Ivoire",
@@ -377,8 +378,8 @@
     "isoAlpha3": "CHL",
     "m49": "152",
     "region": "South America",
-    "siteCount": 111,
-    "smpteSite": 97.3
+    "siteCount": 110,
+    "smpteSite": 97.27
   },
   {
     "country": "Cameroon",
@@ -404,8 +405,8 @@
     "isoAlpha3": "COL",
     "m49": "170",
     "region": "South America",
-    "siteCount": 292,
-    "smpteSite": 97.6
+    "siteCount": 266,
+    "smpteSite": 98.12
   },
   {
     "country": "Costa Rica",
@@ -413,8 +414,8 @@
     "isoAlpha3": "CRI",
     "m49": "188",
     "region": "Central America",
-    "siteCount": 37,
-    "smpteSite": 94.59
+    "siteCount": 39,
+    "smpteSite": 94.87
   },
   {
     "country": "Cuba",
@@ -422,8 +423,8 @@
     "isoAlpha3": "CUB",
     "m49": "192",
     "region": "Caribbean",
-    "siteCount": 5,
-    "smpteSite": 20
+    "siteCount": 6,
+    "smpteSite": 50
   },
   {
     "country": "Cabo Verde",
@@ -458,8 +459,8 @@
     "isoAlpha3": "CYP",
     "m49": "196",
     "region": "Middle East",
-    "siteCount": 21,
-    "smpteSite": 66.67
+    "siteCount": 20,
+    "smpteSite": 75
   },
   {
     "country": "Czech Republic",
@@ -467,8 +468,8 @@
     "isoAlpha3": "CZE",
     "m49": "203",
     "region": "Europe",
-    "siteCount": 330,
-    "smpteSite": 3.33
+    "siteCount": 335,
+    "smpteSite": 76.72
   },
   {
     "country": "Germany",
@@ -476,8 +477,8 @@
     "isoAlpha3": "DEU",
     "m49": "276",
     "region": "Europe",
-    "siteCount": 1685,
-    "smpteSite": 82.31
+    "siteCount": 1681,
+    "smpteSite": 85.84
   },
   {
     "country": "Djibouti",
@@ -494,8 +495,8 @@
     "isoAlpha3": "DNK",
     "m49": "208",
     "region": "Europe",
-    "siteCount": 183,
-    "smpteSite": 89.07
+    "siteCount": 184,
+    "smpteSite": 92.93
   },
   {
     "country": "Dominica",
@@ -521,8 +522,8 @@
     "isoAlpha3": "DZA",
     "m49": "012",
     "region": "Africa",
-    "siteCount": 18,
-    "smpteSite": 66.67
+    "siteCount": 21,
+    "smpteSite": 85.71
   },
   {
     "country": "Ecuador",
@@ -530,8 +531,8 @@
     "isoAlpha3": "ECU",
     "m49": "218",
     "region": "South America",
-    "siteCount": 60,
-    "smpteSite": 93.33
+    "siteCount": 63,
+    "smpteSite": 93.65
   },
   {
     "country": "Estonia",
@@ -539,8 +540,8 @@
     "isoAlpha3": "EST",
     "m49": "233",
     "region": "Europe",
-    "siteCount": 50,
-    "smpteSite": 86
+    "siteCount": 49,
+    "smpteSite": 87.76
   },
   {
     "country": "Egypt",
@@ -548,8 +549,8 @@
     "isoAlpha3": "EGY",
     "m49": "818",
     "region": "Africa",
-    "siteCount": 69,
-    "smpteSite": 23.19
+    "siteCount": 66,
+    "smpteSite": 46.97
   },
   {
     "country": "Western Sahara",
@@ -571,8 +572,8 @@
     "isoAlpha3": "ESP",
     "m49": "724",
     "region": "Europe",
-    "siteCount": 978,
-    "smpteSite": 86.2
+    "siteCount": 975,
+    "smpteSite": 89.44
   },
   {
     "country": "Ethiopia",
@@ -581,7 +582,7 @@
     "m49": "231",
     "region": "Africa",
     "siteCount": 5,
-    "smpteSite": 60
+    "smpteSite": 80
   },
   {
     "country": "Finland",
@@ -589,8 +590,8 @@
     "isoAlpha3": "FIN",
     "m49": "246",
     "region": "Europe",
-    "siteCount": 197,
-    "smpteSite": 90.86
+    "siteCount": 198,
+    "smpteSite": 92.42
   },
   {
     "country": "Fiji",
@@ -625,8 +626,8 @@
     "isoAlpha3": "FRO",
     "m49": "234",
     "region": "Europe",
-    "siteCount": 5,
-    "smpteSite": 40
+    "siteCount": 4,
+    "smpteSite": 75
   },
   {
     "country": "France",
@@ -634,8 +635,8 @@
     "isoAlpha3": "FRA",
     "m49": "250",
     "region": "Europe",
-    "siteCount": 2232,
-    "smpteSite": 89.52
+    "siteCount": 2244,
+    "smpteSite": 93.58
   },
   {
     "country": "Gabon",
@@ -652,8 +653,8 @@
     "isoAlpha3": "GBR",
     "m49": "826",
     "region": "Europe",
-    "siteCount": 1063,
-    "smpteSite": 98
+    "siteCount": 1078,
+    "smpteSite": 91.47
   },
   {
     "country": "Grenada",
@@ -680,7 +681,7 @@
     "m49": "254",
     "region": "South America",
     "siteCount": 4,
-    "smpteSite": 50
+    "smpteSite": 100
   },
   {
     "country": "Guernsey",
@@ -729,7 +730,7 @@
     "isoAlpha3": "GIN",
     "m49": "324",
     "region": "Africa",
-    "siteCount": 2,
+    "siteCount": 3,
     "smpteSite": 100
   },
   {
@@ -739,7 +740,7 @@
     "m49": "312",
     "region": "Caribbean",
     "siteCount": 8,
-    "smpteSite": 75
+    "smpteSite": 87.5
   },
   {
     "country": "Equatorial Guinea",
@@ -747,7 +748,8 @@
     "isoAlpha3": "GNQ",
     "m49": "226",
     "region": "Africa",
-    "siteCount": 1
+    "siteCount": 1,
+    "smpteSite": 100
   },
   {
     "country": "Greece",
@@ -755,8 +757,8 @@
     "isoAlpha3": "GRC",
     "m49": "300",
     "region": "Europe",
-    "siteCount": 286,
-    "smpteSite": 30.07
+    "siteCount": 270,
+    "smpteSite": 47.78
   },
   {
     "country": "South Georgia and the South Sandwich Islands",
@@ -771,8 +773,8 @@
     "isoAlpha3": "GTM",
     "m49": "320",
     "region": "Central America",
-    "siteCount": 42,
-    "smpteSite": 97.62
+    "siteCount": 43,
+    "smpteSite": 100
   },
   {
     "country": "Guam",
@@ -796,8 +798,8 @@
     "isoAlpha3": "GUY",
     "m49": "328",
     "region": "South America",
-    "siteCount": 6,
-    "smpteSite": 66.67
+    "siteCount": 7,
+    "smpteSite": 71.43
   },
   {
     "country": "China Hong Kong Special Administrative Region",
@@ -805,8 +807,8 @@
     "isoAlpha3": "HKG",
     "m49": "344",
     "region": "Asia Pacific",
-    "siteCount": 85,
-    "smpteSite": 72.94
+    "siteCount": 88,
+    "smpteSite": 72.73
   },
   {
     "country": "Honduras",
@@ -823,8 +825,8 @@
     "isoAlpha3": "HRV",
     "m49": "191",
     "region": "Europe",
-    "siteCount": 132,
-    "smpteSite": 53.79
+    "siteCount": 139,
+    "smpteSite": 76.98
   },
   {
     "country": "Haiti",
@@ -839,8 +841,8 @@
     "isoAlpha3": "HUN",
     "m49": "348",
     "region": "Europe",
-    "siteCount": 138,
-    "smpteSite": 4.35
+    "siteCount": 135,
+    "smpteSite": 68.89
   },
   {
     "country": "Indonesia",
@@ -848,8 +850,8 @@
     "isoAlpha3": "IDN",
     "m49": "360",
     "region": "Asia Pacific",
-    "siteCount": 432,
-    "smpteSite": 94.21
+    "siteCount": 448,
+    "smpteSite": 98.44
   },
   {
     "country": "Ireland",
@@ -857,8 +859,8 @@
     "isoAlpha3": "IRL",
     "m49": "372",
     "region": "Europe",
-    "siteCount": 106,
-    "smpteSite": 98
+    "siteCount": 107,
+    "smpteSite": 95.33
   },
   {
     "country": "Israel",
@@ -866,8 +868,8 @@
     "isoAlpha3": "ISR",
     "m49": "376",
     "region": "Middle East",
-    "siteCount": 104,
-    "smpteSite": 60.58
+    "siteCount": 115,
+    "smpteSite": 55.65
   },
   {
     "country": "Isle of Man",
@@ -882,8 +884,8 @@
     "isoAlpha3": "IND",
     "m49": "356",
     "region": "Asia Pacific",
-    "siteCount": 2994,
-    "smpteSite": 15
+    "siteCount": 3176,
+    "smpteSite": 55.32
   },
   {
     "country": "British Indian Ocean Territory",
@@ -898,7 +900,8 @@
     "isoAlpha3": "IRQ",
     "m49": "368",
     "region": "Middle East",
-    "siteCount": 15
+    "siteCount": 16,
+    "smpteSite": 81.25
   },
   {
     "country": "Iran (Islamic Republic of)",
@@ -922,8 +925,8 @@
     "isoAlpha3": "ITA",
     "m49": "380",
     "region": "Europe",
-    "siteCount": 1972,
-    "smpteSite": 36.92
+    "siteCount": 1963,
+    "smpteSite": 68.16
   },
   {
     "country": "Jersey",
@@ -938,7 +941,7 @@
     "isoAlpha3": "JAM",
     "m49": "388",
     "region": "Caribbean",
-    "siteCount": 7,
+    "siteCount": 6,
     "smpteSite": 100
   },
   {
@@ -947,8 +950,8 @@
     "isoAlpha3": "JOR",
     "m49": "400",
     "region": "Middle East",
-    "siteCount": 9,
-    "smpteSite": 44.44
+    "siteCount": 10,
+    "smpteSite": 80
   },
   {
     "country": "Japan",
@@ -956,8 +959,8 @@
     "isoAlpha3": "JPN",
     "m49": "392",
     "region": "Asia Pacific",
-    "siteCount": 674,
-    "smpteSite": 9.79
+    "siteCount": 681,
+    "smpteSite": 27.75
   },
   {
     "country": "Kenya",
@@ -965,8 +968,8 @@
     "isoAlpha3": "KEN",
     "m49": "404",
     "region": "Africa",
-    "siteCount": 14,
-    "smpteSite": 85.71
+    "siteCount": 15,
+    "smpteSite": 93.33
   },
   {
     "country": "Kyrgyzstan",
@@ -975,7 +978,7 @@
     "m49": "417",
     "region": "Asia Pacific",
     "siteCount": 13,
-    "smpteSite": 92.31
+    "smpteSite": 100
   },
   {
     "country": "Cambodia",
@@ -983,8 +986,8 @@
     "isoAlpha3": "KHM",
     "m49": "116",
     "region": "Asia Pacific",
-    "siteCount": 26,
-    "smpteSite": 96.15
+    "siteCount": 28,
+    "smpteSite": 96.43
   },
   {
     "country": "Kiribati",
@@ -1022,8 +1025,8 @@
     "isoAlpha3": "KOR",
     "m49": "410",
     "region": "Asia Pacific",
-    "siteCount": 709,
-    "smpteSite": 89.42
+    "siteCount": 733,
+    "smpteSite": 92.77
   },
   {
     "country": "Kuwait",
@@ -1031,8 +1034,8 @@
     "isoAlpha3": "KWT",
     "m49": "414",
     "region": "Middle East",
-    "siteCount": 26,
-    "smpteSite": 65
+    "siteCount": 29,
+    "smpteSite": 79.31
   },
   {
     "country": "Cayman Islands",
@@ -1049,8 +1052,8 @@
     "isoAlpha3": "KAZ",
     "m49": "398",
     "region": "Asia Pacific",
-    "siteCount": 126,
-    "smpteSite": 88.1
+    "siteCount": 127,
+    "smpteSite": 96.85
   },
   {
     "country": "Lao People's Democratic Republic",
@@ -1058,7 +1061,8 @@
     "isoAlpha3": "LAO",
     "m49": "418",
     "region": "Asia Pacific",
-    "siteCount": 4
+    "siteCount": 4,
+    "smpteSite": 100
   },
   {
     "country": "Lebanon",
@@ -1067,7 +1071,7 @@
     "m49": "422",
     "region": "Middle East",
     "siteCount": 28,
-    "smpteSite": 42.86
+    "smpteSite": 46.43
   },
   {
     "country": "Saint Lucia",
@@ -1093,7 +1097,7 @@
     "m49": "144",
     "region": "Asia Pacific",
     "siteCount": 65,
-    "smpteSite": 26.15
+    "smpteSite": 24.62
   },
   {
     "country": "Liberia",
@@ -1126,8 +1130,8 @@
     "isoAlpha3": "LUX",
     "m49": "442",
     "region": "Europe",
-    "siteCount": 19,
-    "smpteSite": 98
+    "siteCount": 18,
+    "smpteSite": 83.33
   },
   {
     "country": "Latvia",
@@ -1135,8 +1139,8 @@
     "isoAlpha3": "LVA",
     "m49": "428",
     "region": "Europe",
-    "siteCount": 26,
-    "smpteSite": 96.15
+    "siteCount": 27,
+    "smpteSite": 96.3
   },
   {
     "country": "Libya",
@@ -1151,8 +1155,8 @@
     "isoAlpha3": "MAR",
     "m49": "504",
     "region": "Africa",
-    "siteCount": 37,
-    "smpteSite": 56.76
+    "siteCount": 40,
+    "smpteSite": 77.5
   },
   {
     "country": "Monaco",
@@ -1160,8 +1164,8 @@
     "isoAlpha3": "MCO",
     "m49": "492",
     "region": "Europe",
-    "siteCount": 4,
-    "smpteSite": 25
+    "siteCount": 3,
+    "smpteSite": 33.33
   },
   {
     "country": "Republic of Moldova",
@@ -1178,8 +1182,8 @@
     "isoAlpha3": "MNE",
     "m49": "499",
     "region": "Europe",
-    "siteCount": 9,
-    "smpteSite": 33.33
+    "siteCount": 10,
+    "smpteSite": 70
   },
   {
     "country": "Saint Martin (French Part)",
@@ -1211,8 +1215,8 @@
     "isoAlpha3": "MKD",
     "m49": "807",
     "region": "Europe",
-    "siteCount": 8,
-    "smpteSite": 62.5
+    "siteCount": 9,
+    "smpteSite": 88.89
   },
   {
     "country": "Mali",
@@ -1229,8 +1233,8 @@
     "isoAlpha3": "MMR",
     "m49": "104",
     "region": "Asia Pacific",
-    "siteCount": 90,
-    "smpteSite": 8.89
+    "siteCount": 92,
+    "smpteSite": 51.09
   },
   {
     "country": "Mongolia",
@@ -1238,8 +1242,8 @@
     "isoAlpha3": "MNG",
     "m49": "496",
     "region": "Asia Pacific",
-    "siteCount": 15,
-    "smpteSite": 80
+    "siteCount": 16,
+    "smpteSite": 75
   },
   {
     "country": "China Macao Special Administrative Region",
@@ -1247,8 +1251,8 @@
     "isoAlpha3": "MAC",
     "m49": "446",
     "region": "Asia Pacific",
-    "siteCount": 9,
-    "smpteSite": 55.56
+    "siteCount": 8,
+    "smpteSite": 62.5
   },
   {
     "country": "Northern Mariana Islands",
@@ -1290,7 +1294,7 @@
     "isoAlpha3": "MLT",
     "m49": "470",
     "region": "Europe",
-    "siteCount": 8,
+    "siteCount": 9,
     "smpteSite": 100
   },
   {
@@ -1300,7 +1304,7 @@
     "m49": "480",
     "region": "Africa",
     "siteCount": 13,
-    "smpteSite": 61.54
+    "smpteSite": 69.23
   },
   {
     "country": "Maldives",
@@ -1308,7 +1312,8 @@
     "isoAlpha3": "MDV",
     "m49": "462",
     "region": "Asia Pacific",
-    "siteCount": 2
+    "siteCount": 2,
+    "smpteSite": 50
   },
   {
     "country": "Malawi",
@@ -1323,8 +1328,8 @@
     "isoAlpha3": "MEX",
     "m49": "484",
     "region": "Central America",
-    "siteCount": 1044,
-    "smpteSite": 97.61
+    "siteCount": 1081,
+    "smpteSite": 97.22
   },
   {
     "country": "Malaysia",
@@ -1332,8 +1337,8 @@
     "isoAlpha3": "MYS",
     "m49": "458",
     "region": "Asia Pacific",
-    "siteCount": 181,
-    "smpteSite": 75.69
+    "siteCount": 192,
+    "smpteSite": 84.38
   },
   {
     "country": "Mozambique",
@@ -1384,8 +1389,8 @@
     "isoAlpha3": "NGA",
     "m49": "566",
     "region": "Africa",
-    "siteCount": 81,
-    "smpteSite": 86.42
+    "siteCount": 90,
+    "smpteSite": 93.33
   },
   {
     "country": "Nicaragua",
@@ -1393,8 +1398,8 @@
     "isoAlpha3": "NIC",
     "m49": "558",
     "region": "Central America",
-    "siteCount": 11,
-    "smpteSite": 90.91
+    "siteCount": 10,
+    "smpteSite": 100
   },
   {
     "country": "Netherlands",
@@ -1402,8 +1407,8 @@
     "isoAlpha3": "NLD",
     "m49": "528",
     "region": "Europe",
-    "siteCount": 278,
-    "smpteSite": 95.32
+    "siteCount": 286,
+    "smpteSite": 95.1
   },
   {
     "country": "Norway",
@@ -1411,8 +1416,8 @@
     "isoAlpha3": "NOR",
     "m49": "578",
     "region": "Europe",
-    "siteCount": 254,
-    "smpteSite": 97.64
+    "siteCount": 257,
+    "smpteSite": 96.5
   },
   {
     "country": "Nepal",
@@ -1420,8 +1425,8 @@
     "isoAlpha3": "NPL",
     "m49": "524",
     "region": "Asia Pacific",
-    "siteCount": 55,
-    "smpteSite": 1.82
+    "siteCount": 59,
+    "smpteSite": 81.36
   },
   {
     "country": "Nauru",
@@ -1443,8 +1448,8 @@
     "isoAlpha3": "NZL",
     "m49": "554",
     "region": "Australia and New Zealand",
-    "siteCount": 157,
-    "smpteSite": 91.72
+    "siteCount": 160,
+    "smpteSite": 95
   },
   {
     "country": "Oman",
@@ -1453,7 +1458,7 @@
     "m49": "512",
     "region": "Middle East",
     "siteCount": 27,
-    "smpteSite": 74.07
+    "smpteSite": 81.48
   },
   {
     "country": "Panama",
@@ -1461,8 +1466,8 @@
     "isoAlpha3": "PAN",
     "m49": "591",
     "region": "Central America",
-    "siteCount": 33,
-    "smpteSite": 96.97
+    "siteCount": 34,
+    "smpteSite": 97.06
   },
   {
     "country": "Peru",
@@ -1470,8 +1475,8 @@
     "isoAlpha3": "PER",
     "m49": "604",
     "region": "South America",
-    "siteCount": 122,
-    "smpteSite": 95.08
+    "siteCount": 125,
+    "smpteSite": 96
   },
   {
     "country": "French Polynesia",
@@ -1497,8 +1502,8 @@
     "isoAlpha3": "PHL",
     "m49": "608",
     "region": "Asia Pacific",
-    "siteCount": 252,
-    "smpteSite": 51.19
+    "siteCount": 261,
+    "smpteSite": 83.14
   },
   {
     "country": "Pakistan",
@@ -1506,8 +1511,8 @@
     "isoAlpha3": "PAK",
     "m49": "586",
     "region": "Asia Pacific",
-    "siteCount": 77,
-    "smpteSite": 75.32
+    "siteCount": 82,
+    "smpteSite": 73.17
   },
   {
     "country": "Poland",
@@ -1515,8 +1520,8 @@
     "isoAlpha3": "POL",
     "m49": "616",
     "region": "Europe",
-    "siteCount": 581,
-    "smpteSite": 89.5
+    "siteCount": 596,
+    "smpteSite": 89.43
   },
   {
     "country": "Saint Pierre and Miquelon",
@@ -1541,7 +1546,7 @@
     "m49": "630",
     "region": "Caribbean",
     "siteCount": 40,
-    "smpteSite": 95
+    "smpteSite": 97.5
   },
   {
     "country": "State of Palestine",
@@ -1557,8 +1562,8 @@
     "isoAlpha3": "PRT",
     "m49": "620",
     "region": "Europe",
-    "siteCount": 218,
-    "smpteSite": 72.48
+    "siteCount": 221,
+    "smpteSite": 83.26
   },
   {
     "country": "Palau",
@@ -1573,8 +1578,8 @@
     "isoAlpha3": "PRY",
     "m49": "600",
     "region": "South America",
-    "siteCount": 22,
-    "smpteSite": 95.45
+    "siteCount": 24,
+    "smpteSite": 95.83
   },
   {
     "country": "Qatar",
@@ -1582,8 +1587,8 @@
     "isoAlpha3": "QAT",
     "m49": "634",
     "region": "Middle East",
-    "siteCount": 25,
-    "smpteSite": 95
+    "siteCount": 26,
+    "smpteSite": 76.92
   },
   {
     "country": "Réunion",
@@ -1591,8 +1596,8 @@
     "isoAlpha3": "REU",
     "m49": "638",
     "region": "Africa",
-    "siteCount": 17,
-    "smpteSite": 82.35
+    "siteCount": 19,
+    "smpteSite": 89.47
   },
   {
     "country": "Romania",
@@ -1600,8 +1605,8 @@
     "isoAlpha3": "ROU",
     "m49": "642",
     "region": "Europe",
-    "siteCount": 110,
-    "smpteSite": 18.18
+    "siteCount": 121,
+    "smpteSite": 59.5
   },
   {
     "country": "Serbia",
@@ -1609,8 +1614,8 @@
     "isoAlpha3": "SRB",
     "m49": "688",
     "region": "Europe",
-    "siteCount": 71,
-    "smpteSite": 59.15
+    "siteCount": 82,
+    "smpteSite": 78.05
   },
   {
     "country": "Russian Federation",
@@ -1618,8 +1623,8 @@
     "isoAlpha3": "RUS",
     "m49": "643",
     "region": "Europe",
-    "siteCount": 2545,
-    "smpteSite": 81.93
+    "siteCount": 2641,
+    "smpteSite": 78.8
   },
   {
     "country": "Rwanda",
@@ -1628,7 +1633,7 @@
     "m49": "646",
     "region": "Africa",
     "siteCount": 2,
-    "smpteSite": 50
+    "smpteSite": 100
   },
   {
     "country": "Saudi Arabia",
@@ -1636,8 +1641,8 @@
     "isoAlpha3": "SAU",
     "m49": "682",
     "region": "Middle East",
-    "siteCount": 78,
-    "smpteSite": 73.08
+    "siteCount": 92,
+    "smpteSite": 90.22
   },
   {
     "country": "Sark",
@@ -1667,7 +1672,8 @@
     "isoAlpha3": "SDN",
     "m49": "729",
     "region": "Africa",
-    "siteCount": 2
+    "siteCount": 2,
+    "smpteSite": 50
   },
   {
     "country": "Sweden",
@@ -1675,8 +1681,8 @@
     "isoAlpha3": "SWE",
     "m49": "752",
     "region": "Europe",
-    "siteCount": 457,
-    "smpteSite": 89.93
+    "siteCount": 461,
+    "smpteSite": 93.71
   },
   {
     "country": "Singapore",
@@ -1684,8 +1690,8 @@
     "isoAlpha3": "SGP",
     "m49": "702",
     "region": "Asia Pacific",
-    "siteCount": 60,
-    "smpteSite": 81.67
+    "siteCount": 61,
+    "smpteSite": 80.33
   },
   {
     "country": "Saint Helena",
@@ -1700,8 +1706,8 @@
     "isoAlpha3": "SVN",
     "m49": "705",
     "region": "Europe",
-    "siteCount": 50,
-    "smpteSite": 46
+    "siteCount": 49,
+    "smpteSite": 79.59
   },
   {
     "country": "Svalbard and Jan Mayen Islands",
@@ -1716,8 +1722,8 @@
     "isoAlpha3": "SVK",
     "m49": "703",
     "region": "Europe",
-    "siteCount": 112,
-    "smpteSite": 6.25
+    "siteCount": 113,
+    "smpteSite": 81.42
   },
   {
     "country": "Sierra Leone",
@@ -1739,8 +1745,8 @@
     "isoAlpha3": "SEN",
     "m49": "686",
     "region": "Africa",
-    "siteCount": 7,
-    "smpteSite": 28.57
+    "siteCount": 9,
+    "smpteSite": 55.56
   },
   {
     "country": "Somalia",
@@ -1845,8 +1851,8 @@
     "isoAlpha3": "THA",
     "m49": "764",
     "region": "Asia Pacific",
-    "siteCount": 282,
-    "smpteSite": 24.82
+    "siteCount": 285,
+    "smpteSite": 44.21
   },
   {
     "country": "Tajikistan",
@@ -1895,8 +1901,8 @@
     "isoAlpha3": "TUR",
     "m49": "792",
     "region": "Middle East",
-    "siteCount": 530,
-    "smpteSite": 30
+    "siteCount": 532,
+    "smpteSite": 71.43
   },
   {
     "country": "Trinidad and Tobago",
@@ -1904,8 +1910,8 @@
     "isoAlpha3": "TTO",
     "m49": "780",
     "region": "Caribbean",
-    "siteCount": 12,
-    "smpteSite": 83.33
+    "siteCount": 13,
+    "smpteSite": 84.62
   },
   {
     "country": "Tunisia",
@@ -1914,7 +1920,7 @@
     "m49": "788",
     "region": "Africa",
     "siteCount": 29,
-    "smpteSite": 58.62
+    "smpteSite": 62.07
   },
   {
     "country": "Tuvalu",
@@ -1928,8 +1934,8 @@
     "isoAlpha2": "TW",
     "isoAlpha3": "TWN",
     "region": "Asia Pacific",
-    "siteCount": 156,
-    "smpteSite": 66.03
+    "siteCount": 160,
+    "smpteSite": 70.63
   },
   {
     "country": "Tanzania",
@@ -1946,8 +1952,8 @@
     "isoAlpha3": "UKR",
     "m49": "804",
     "region": "Europe",
-    "siteCount": 275,
-    "smpteSite": 17.82
+    "siteCount": 277,
+    "smpteSite": 19.49
   },
   {
     "country": "Uganda",
@@ -1956,7 +1962,7 @@
     "m49": "800",
     "region": "Africa",
     "siteCount": 8,
-    "smpteSite": 50
+    "smpteSite": 62.5
   },
   {
     "country": "United States Minor Outlying Islands",
@@ -1971,8 +1977,8 @@
     "isoAlpha3": "USA",
     "m49": "840",
     "region": "North America",
-    "siteCount": 5509,
-    "smpteSite": 100
+    "siteCount": 5424,
+    "smpteSite": 98.95
   },
   {
     "country": "Uruguay",
@@ -1980,8 +1986,8 @@
     "isoAlpha3": "URY",
     "m49": "858",
     "region": "South America",
-    "siteCount": 44,
-    "smpteSite": 93.18
+    "siteCount": 45,
+    "smpteSite": 95.56
   },
   {
     "country": "Uzbekistan",
@@ -1989,8 +1995,8 @@
     "isoAlpha3": "UZB",
     "m49": "860",
     "region": "Asia Pacific",
-    "siteCount": 26,
-    "smpteSite": 84.62
+    "siteCount": 28,
+    "smpteSite": 89.29
   },
   {
     "country": "Holy See",
@@ -2014,8 +2020,8 @@
     "isoAlpha3": "VEN",
     "m49": "862",
     "region": "South America",
-    "siteCount": 80,
-    "smpteSite": 93.75
+    "siteCount": 81,
+    "smpteSite": 95.06
   },
   {
     "country": "British Virgin Islands",
@@ -2041,8 +2047,8 @@
     "isoAlpha3": "VNM",
     "m49": "704",
     "region": "Asia Pacific",
-    "siteCount": 211,
-    "smpteSite": 92.89
+    "siteCount": 210,
+    "smpteSite": 92.38
   },
   {
     "country": "Vanuatu",
@@ -2074,8 +2080,8 @@
     "isoAlpha2": "XK",
     "isoAlpha3": "RKS",
     "region": "Europe",
-    "siteCount": 6,
-    "smpteSite": 50
+    "siteCount": 7,
+    "smpteSite": 85.71
   },
   {
     "country": "Yemen",
@@ -2091,7 +2097,7 @@
     "m49": "175",
     "region": "Africa",
     "siteCount": 2,
-    "smpteSite": 50
+    "smpteSite": 100
   },
   {
     "country": "South Africa",
@@ -2099,8 +2105,8 @@
     "isoAlpha3": "ZAF",
     "m49": "710",
     "region": "Africa",
-    "siteCount": 106,
-    "smpteSite": 88.68
+    "siteCount": 96,
+    "smpteSite": 92.71
   },
   {
     "country": "Zambia",
