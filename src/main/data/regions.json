@@ -1,4 +1,5 @@
 [
+  
   {
     "isoAlpha2": "AF",
     "m49": "002",
@@ -58,5 +59,9 @@
     "isoAlpha2": "SA",
     "m49": "005",
     "region": "South America"
+  },
+  {
+    "m49": "001",
+    "region": "World"
   }
 ]

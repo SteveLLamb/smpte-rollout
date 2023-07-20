@@ -115,42 +115,70 @@ async function buildRegistry ({ listType, templateType, idType, listTitle }) {
       throw "Cannot load countries";  
     }
 
+    let regionTotal = 0 
+    let countryTotal = 0
+    let siteTotal = 0
+    let smpteTotal = 0
+
     for (let i in registry) {
       let rg = registry[i]["region"];
-      let countriesFiltered = countries.filter(value => value.region === rg);
-      let cC = countriesFiltered.length;
-      
-      let stsum = 0; 
-      countriesFiltered.forEach(obj => {
-          for (let p in obj) {
-              if(p == "siteCount")
-              stsum += obj[p];
-          }
-      })
 
-      let spsum = 0; 
-      countriesFiltered.forEach(obj => {
-          for (let p in obj) {
-              if(p == "smpteSite")
-              spsum += obj[p];
-          }
-      })
+      if (rg !== "World") {
 
-      function round(value, decimals) {
-        return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
+        regionTotal = regionTotal + 1
+        let countriesFiltered = countries.filter(value => value.region === rg);
+        let cC = countriesFiltered.length;
+        
+        let stsum = 0; 
+        countriesFiltered.forEach(obj => {
+            for (let p in obj) {
+                if(p == "siteCount")
+                stsum += obj[p];
+            }
+        })
+
+        let spsum = 0; 
+        countriesFiltered.forEach(obj => {
+            for (let p in obj) {
+                if(p == "smpteSite")
+                spsum += obj[p];
+            }
+        })
+
+        function round(value, decimals) {
+          return Number(Math.round(value + 'e' + decimals) + 'e-' + decimals);
+        }
+
+        /* calculate only countries with sites */
+        let avGcountriesFiltered = countries.filter(function (currentElement) {
+          return currentElement.region === rg && currentElement.siteCount != null;
+        });
+        let avGcC = avGcountriesFiltered.length;
+        var spavg = round((spsum/avGcC), 2);
+
+        countryTotal = countryTotal + cC
+        registry[i].countryCount = cC;
+        siteTotal = siteTotal + stsum
+        registry[i].siteCount = stsum;
+        smpteTotal = smpteTotal + spavg
+        registry[i].smpteSite = spavg;
+
       }
-
-      /* calculate only countries with sites */
-      let avGcountriesFiltered = countries.filter(function (currentElement) {
-        return currentElement.region === rg && currentElement.siteCount != null;
-      });
-      let avGcC = avGcountriesFiltered.length;
-      var spavg = round((spsum/avGcC), 2);
-
-      registry[i].countryCount = cC;
-      registry[i].siteCount = stsum;
-      registry[i].smpteSite = spavg;
     }
+
+    var spTavg = round((smpteTotal/regionTotal), 2);
+
+    for (let i in registry) {
+      let rg = registry[i]["region"];
+
+      if (rg === "World") {
+        registry[i].countryCount = countryTotal
+        registry[i].siteCount = siteTotal;
+        registry[i].smpteSite = spTavg;
+
+      }
+    }
+
   }
 
   /* load the map data */

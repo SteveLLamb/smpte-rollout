@@ -9,8 +9,7 @@
                 "type": "object",
                 "required": [
                     "region",
-                    "m49",
-                    "isoAlpha2"
+                    "m49"
                 ],
                 "properties": {
                     "region": {
